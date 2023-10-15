@@ -1,11 +1,7 @@
 # applications_park
 All postdoc and faculty applications in applied math, Fall 2017-- Spring 2022
 
-Some PDFs have corresponding tex files, some do not.
-
-I have not checked that everything will compile and I will not provide missing files. However, most files are human-readable plain text, or PDFs, so take what you need. 
-
-The organization differs significantly from year-to-year. I will fix this if I find extra time.
+I have not checked that everything will compile and I will not provide missing files. Some PDFs have corresponding tex files, some do not. However, most files are human-readable plain text, or PDFs, so take what you need. The organization differs significantly from year-to-year.
 
 The vast majority of applications were submitted through mathjobs.org.
 
