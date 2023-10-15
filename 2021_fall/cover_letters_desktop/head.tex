@@ -1,0 +1,121 @@
+\documentclass[11pt,a4paper]{letter}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	left=20mm,
+	right=20mm,
+	headheight=.0cm,
+	top=.0cm,
+	bottom=0cm,
+	footskip=0cm
+}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	SENDER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\def\Who{Youngmin Park, Ph.D.}
+\def\What{, PIMS Postdoctoral Fellow}
+\def\Where{Department of Mathematics\\University of Manitoba}
+\def\addy{420 Machray Hall 186 Dysart Rd}
+\def\CityZip{Winnipeg, MB R3T 2N2 Canada\\\today}
+\def\Email{E-mail: ypark@brandeis.edu}
+\def\TEL{Phone: (412) 805-0283}
+\def\URL{youngmp.github.io}
+%----------------------------------------------------------------------------------------
+%	HEADER AND FROM ADDRESS STRUCTURE
+%----------------------------------------------------------------------------------------
+%%%%
+%\vspace{-2in}
+\def\address{
+	\raisebox{0in}[0pt][0pt]{\includegraphics[width=1.2in]{logo_manitoba.png}} % Include the logo of your institution
+	\hspace{-3.31in} % Position of the institution logo, increase to move left, decrease to move right
+	\vskip -.35in~\\ % Position of the text in relation to the institution logo, increase to move down, decrease to move up
+	%\makebox[0ex][r]{\bf \Who \What }\hspace{0.08in}
+	~\\[-0.11in] % Reduce the whitespace above the horizontal rule
+	\hspace{\fill}\parbox[t]{2.85in}{ % Create a box for your details underneath the horizontal rule on the right
+		\footnotesize % Use a smaller font size for the details
+		\Who \\ \em % Your name, all text after this will be italicized
+		\Where\\ % Your department
+		\addy\\ % Your address
+		\CityZip\\ % Your city and zip code
+		%\TEL\\ % Your phone number
+		%\Email\\ % Your email address
+		%\URL % Your URL
+	}
+	\hspace{-1in} % Horizontal position of this block, increase to move left, decrease to move right
+	\vspace{-1.6in} % Move the letter content up for a more compact look
+}
+
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS STRUCTURE
+%----------------------------------------------------------------------------------------
+
+
+\def\opening#1{\thispagestyle{empty}
+	%%% from address
+	{\centering\address \vspace{.75in} \\
+		%% Date
+		\hspace*{\longindentation}\hspace*{\fill}\par} % remove \today to not display it
+	{\raggedright \toname \\ \toaddress \par} % Print the to name and address
+	
+	\noindent #1 % Print the opening line
+}
+
+
+%----------------------------------------------------------------------------------------
+%	SIGNATURE
+%----------------------------------------------------------------------------------------
+
+\signature{\Who \What}
+
+\long\def\closing#1{
+	\vspace{0.1in} % Some whitespace after the letter content and before the signature
+	\noindent % Stop paragraph indentation
+	#1 % Print the signature text
+	
+	\includegraphics[width=1in]{signature.png} % Whitespace between the signature text and your name%
+	
+	\fromsig}
+
+
+%\long\def\closing#1{
+%\vspace{0.1in} % Some whitespace after the letter content and before the signature
+%\noindent % Stop paragraph indentation
+%\hspace*{\longindentation} % Move the signature right
+%\parbox{\indentedwidth}{\raggedright
+%#1 % Print the signature text
+%
+%\includegraphics[width=1in]{signature.png} % Whitespace between the signature text and your name%
+%
+%\fromsig}}
+
+%----------------------------------------------------------------------------------------
+% Create a new command for the horizontal rule in the document which allows thickness specification
+\makeatletter
+\def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+
+
+
+%----------------------------------------------------------------------------------------
+%	PAPER MARGINS
+%----------------------------------------------------------------------------------------
+
+\textwidth 6in
+\textheight 11in
+%\oddsidemargin -.4in
+\oddsidemargin 0in
+\evensidemargin 0in
+\topmargin -1.2in
+\longindentation 0.25\textwidth
+\parindent 0.2in

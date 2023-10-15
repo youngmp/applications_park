@@ -1,0 +1,47 @@
+
+\input{head}
+
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	TO ADDRESS
+	%----------------------------------------------------------------------------------------
+	
+	\def\School{Grinnell College}
+	
+	\begin{letter}
+		{Mathematics Faculty Search\\
+		1115 8th Avenue
+		Grinnell, IA 50112
+		}
+		
+		%----------------------------------------------------------------------------------------
+		%	LETTER CONTENT
+		%----------------------------------------------------------------------------------------
+		\opening{Dear Members of the Hiring Committee}
+		
+		%\thispagestyle{empty}
+		%%%% from address
+		%{\centering\address \vspace{.75in} \\
+		%	%% Date
+		%	\hspace*{\longindentation}\hspace*{\fill}\par} % remove \today to not display it
+		%{\raggedright \toname \\ \toaddress \par} % Print the to name and address
+		
+		% backgruond
+		I am applying for the position of tenure-track Assistant Professor in Mathematics and Statistics at \School. \input{doc_background}
+		
+		% reason for applying
+		\School~features strong researchers in applied mathematics including \textbf{Jeffrey Blanchard}, but representation in mathematical neuroscience is less salient. \input{doc_dept_enhance} 
+		
+		% qualifications, research + teaching
+		\input{doc_research}
+		
+		\input{doc_teaching}
+		
+		Please request additional details as needed, and I look forward to our correspondence.
+		
+		\closing{Sincerely,}
+		%----------------------------------------------------------------------------------------
+	\end{letter}
+\end{document}

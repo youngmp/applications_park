@@ -1,0 +1,47 @@
+
+\input{head}
+
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	TO ADDRESS
+	%----------------------------------------------------------------------------------------
+	
+	\def\School{Colby College}
+	
+	\begin{letter}
+		{Mathematics Faculty Search\\
+			Mayflower Hill Drive\\
+			Waterville, ME 04901\\
+			207-859-4000
+		}
+		
+		%----------------------------------------------------------------------------------------
+		%	LETTER CONTENT
+		%----------------------------------------------------------------------------------------
+		\opening{Dear Members of the Hiring Committee}
+		
+		%\thispagestyle{empty}
+		%%%% from address
+		%{\centering\address \vspace{.75in} \\
+		%	%% Date
+		%	\hspace*{\longindentation}\hspace*{\fill}\par} % remove \today to not display it
+		%{\raggedright \toname \\ \toaddress \par} % Print the to name and address
+		
+		I am applying for the tenure-track position in Mathematics at \School. \input{doc_background}
+		
+		
+		
+		\School~features top researchers in applied mathematics including \textbf{Nora E. Youngs} and \textbf{Evan Randles}, but representation in mathematical biology is less salient. \input{doc_dept_nomatch}
+		
+		\input{doc_research}
+		
+		\input{doc_teaching}
+		
+		Please request additional details as needed, and I look forward to our correspondence.
+		
+		\closing{Sincerely,}
+		%----------------------------------------------------------------------------------------
+	\end{letter}
+\end{document}

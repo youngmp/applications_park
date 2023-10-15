@@ -1,0 +1,49 @@
+
+\input{head}
+
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	TO ADDRESS
+	%----------------------------------------------------------------------------------------
+	
+	\def\School{NC State}
+	
+	\begin{letter}
+		{Mathematics Faculty Search\\
+		North Carolina State University\\
+		Department of Mathematics\\
+		Box 8205\\
+		Raleigh, NC 27695-8205
+		}
+		
+		%----------------------------------------------------------------------------------------
+		%	LETTER CONTENT
+		%----------------------------------------------------------------------------------------
+		\opening{Dear Members of the Hiring Committee}
+		
+		%\thispagestyle{empty}
+		%%%% from address
+		%{\centering\address \vspace{.75in} \\
+		%	%% Date
+		%	\hspace*{\longindentation}\hspace*{\fill}\par} % remove \today to not display it
+		%{\raggedright \toname \\ \toaddress \par} % Print the to name and address
+		
+		% backgruond
+		I am applying for the position of tenure-track Assistant Professor in Mathematics at \School. \input{doc_background}
+		
+		% reason for applying
+		\School~features top researchers in mathematical and computational biology (such as \textbf{Alun Lloyd} and \textbf{Seth Sullivant}), but representation in mathematical neuroscience is less salient. \input{doc_dept_enhance} 
+		
+		% qualifications, research + teaching
+		\input{doc_research}
+		
+		\input{doc_teaching}
+		
+		Please request additional details as needed, and I look forward to our correspondence.
+		
+		\closing{Sincerely,}
+		%----------------------------------------------------------------------------------------
+	\end{letter}
+\end{document}
