@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Rochester Institute of Technology}
+
+\begin{letter}
+{ATTN: Search Committee\\
+School of Mathematical Sciences\\
+One Lomb Memorial Drive\\
+Rochester, NY 14623\\
+585-475-2411
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the position of Visiting Assistant Professor of Mathematics at \School. \input{intro0}
+
+\input{research}
+
+\School~features top researchers in mathematical biology, including \textbf{Lucia Carichino}, \textbf{Ephraim Agyingi}, \textbf{Moumita Das}, and \textbf{Niels Otani}. I will \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

@@ -1,0 +1,33 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+\setlength{\parindent}{0pt}
+Recall that the change in salt content $x$ (\si{lb}) is given by
+\begin{equation*}
+    x' = \text{(rate in)} - \text{(rate out)},
+\end{equation*}
+where
+\begin{align*}
+    \text{rate in} &= \text{volume rate} \times \text{concentration}\\
+    &= r \times \text{gal/min} \times 0\,\text{lb/gal},\\
+    \text{rate out} &=  r \times \text{gal/min} \times \frac{x\,\text{lb}}{500\,\text{gal}}.\\
+\end{align*}
+The unknown we wish to solve for is the rate $r$. To do this, we write down the ODE:
+\begin{equation*}
+    x' = -r x/500.
+\end{equation*}
+This is a separable ODE with solution
+\begin{equation*}
+    x(t) = x_0 e^{-tr/500}.
+\end{equation*}
+We are given that the initial salt concentration is $x_0 = 500\times 0.05 = 25$ and that we want 5 pounds of salt at 60 minutes, or $x(60) = 0.01\times500 = 5$. Plugging these numbers into the above equation for $x(t)$ and solving for $r$ yields,
+\begin{equation*}
+    r = -\frac{25}{3}\ln\left(\frac{1}{5}\right)
+\end{equation*}
+\end{document}

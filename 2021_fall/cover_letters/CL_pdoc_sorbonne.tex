@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+\def\School{Sorbonne Universit\'{e}}
+\begin{letter}
+{Hiring Committee\\
+Institut de Math\'{e}matiques de Jussieu - Paris Rive Gauche (IMJ-PRG)\\
+Sorbonne Universit\'{e}\\
+Bureau 1525-515\\
+4 place Jussieu,\\
+Case 247}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Hiring Committee,}
+
+I am applying for the post-doctoral position at \School. \input{intro0}
+
+\input{research}
+
+\School~features strong researchers in mathematical and computational biology (with faculty such as Steven Strogatz and Richard Rand), but representation in neuroscience is less salient. \input{department_blurb}\School's  reputation in applied mathematics.
+
+As part of my application I include a curriculum vitae, research statement, and teaching statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

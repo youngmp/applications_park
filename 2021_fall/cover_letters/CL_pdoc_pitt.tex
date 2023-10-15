@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{University of Pittsburgh}
+
+\begin{letter}
+{University of Pittsburgh\\
+Mathematics Department\\
+301 Thackeray Hall\\
+Pittsburgh, PA 15213}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Dr. Rubin,}
+
+I am applying for the Postdoctoral Fellowship in Mathematics at \School. My doctoral research in dimension reduction resulted in winning the prestigious \textbf{Andrew Mellon Predoctoral Fellowship}, awarded to doctoral students of exceptional promise and ability. My research ability has matured through my postdocs: at the University of Pennsylvania, I collaborated closely with neuroscientists and published ground-breaking models to explain data produced by the world's leading auditory labs. At Brandeis, I have continued to develop my abilities as an independent mathematician while publishing in multiple fields, including coupled oscillators and molecular motor dynamics. Much of my recent work is collaborative but largely independent.
+
+\input{research}
+
+\School~features top researchers in mathematical neuroscience (including \textbf{Jon Rubin} and \textbf{Bard Ermentrout}). I will \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, teaching statement, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

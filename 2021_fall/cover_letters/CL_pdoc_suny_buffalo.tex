@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{University at Buffalo}
+
+\begin{letter}
+{Search Committee\\
+244 Mathematics Building\\
+Mary Talbert Way\\
+North Campus, University at Buffalo\\
+Buffalo, NY 14260
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the a postdoctoral position in mathematics at the \School. \input{intro0}
+
+\input{research}
+
+\School~features top researchers who include natural science in their work including \textbf{Brian Hassard}, \textbf{Naoki Masuda}, \textbf{Sarah Muldoon}, \textbf{John Ringland}, and \textbf{Dane Taylor}. My skill set in dynamical systems and biology research will  \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, teaching statement, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

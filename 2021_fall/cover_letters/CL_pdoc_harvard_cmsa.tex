@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Harvard University}
+
+\begin{letter}
+{ATTN: Search Committee\\
+Center of Mathematical Sciences and Applications\\
+Harvard University\\
+20 Garden Street\\
+Cambridge, MA 02138}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Hiring Committee,}
+
+I am applying for the Postdoctoral Fellowship at the Center of Mathematical Sciences and Applications, \School. \input{intro0}
+
+\input{research}
+
+\School~features top researchers who include natural sciences in their work (including \textbf{Jeff Lichtman}), but representation in mathematical neuroscience is less salient. My skill set in biological modeling and data analysis will  \input{skills_blurb}\School's reputation in applied mathematics.
+
+As part of my application I include a curriculum vitae and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

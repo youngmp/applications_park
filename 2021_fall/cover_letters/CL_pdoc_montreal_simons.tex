@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+
+\input{head.tex}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Universit\'{e} de Montr\'{e}al}
+\begin{letter}
+{ATTN: Search Committee\\
+Centre de recherches mathématiques\\
+Université de Montréal\\
+Case postale 6128, Succursale Centre-ville\\
+Montréal (Québec)\\
+H3C 3J7
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am a US citizen applying for the CRM-SIMONS Postdoctoral Fellowship in Mathematics at \School. \input{intro0}
+
+\input{research}
+
+\School~features top researchers who include natural sciences in their work, including \textbf{Tony Humphries} and \textbf{Guillaume Lajoie}. I will \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, research statement, and teaching statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

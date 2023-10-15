@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+\def\School{Princeton University}
+\begin{letter}
+{Hiring Committee\\
+Princeton University\\
+205 Fine Hall\\
+Princeton, NJ 08544
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Hiring Committee,}
+
+I am applying for the Postdoctoral Research Associate at \School. \input{intro0}
+
+\input{research}
+
+\School~features strong researchers in mathematical and computational neuroscience including \textbf{Bill Bialek} and \textbf{Carlos Brody}. My research experience in stochastic dynamical systems and computational neuroscience \input{skills_blurb}
+
+As part of my application I include a curriculum vitae and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}
