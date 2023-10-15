@@ -1,0 +1,58 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% extra packages
+% \usepackage{amsrefs}
+% \usepackage[autocite=inline,labelalpha=true]{biblatex}
+
+\usepackage[top=1in, left=1in, right=1in, bottom=1in]{geometry}
+\usepackage{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{siunitx}
+
+\newcommand{\ve}{\varepsilon}
+\newcommand{\h}{\mathcal{H}}
+
+%\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Research Statement}
+
+\Large Youngmin Park
+\end{center}
+
+
+\section{Introduction}
+
+I develop dimension-reduction methods for neural network models using dynamical systems theory, and in turn, use these findings to understand how biological neural networks function and how they are maintained. I specialize in  oscillator coupling theory, numerical bifurcation theory, and often employ general perturbation methods.
+
+My work on neural oscillations falls within the broader work of oscillator theories oriented towards understanding pathological neural behavior such as Parkinsonian tremors, epilepsy, and cardiac alternans. Overall theoretical work in these directions has been promising, but tend to use one of three starting points: mathematically tractable but very abstract models \cite{ott2008low}, particular forms of symmetry \cite{golubitsky1986hopf}, and the \textit{weak coupling} assumption, or more generally, the \textit{linear} approximation \cite{ermentrout2002modeling}. The weak coupling assumption has long been an invaluable theoretical tool to understand neural behavior consisting of only small deviations from a known behavior such as quiescence or oscillatory activity. Indeed, the weak coupling assumption has driven much of my work \cite{park2016weakly,park2018multiple,park2018scalar}. 
+
+While these assumptions facilitate theorists to a potent degree and were perhaps close to experimental conditions some decades ago, they are now far from modern experimental conditions. Modern experiments are often done \textit{in vivo}, where neurons are often strongly coupled, heterogeneous, and interact nonlinearly. Therefore, my field must develop theories that directly address \textit{strongly coupled} networks of \textit{heterogeneous} neurons with \textit{nonlinear} interactions at multiple scales. We must understand the brain as it is.
+
+To this end, \textit{I have formulated a theory of strongly coupled oscillators} \cite{park2020high}. Consider the coupled system of $N$ ODEs,
+\begin{equation}\label{eq:odes}
+\dot X_i = F(X_i) +\ve \sum_{j=1}^N a_{ij} G(X_i,X_j), \quad i=1,\ldots,N,\\
+\end{equation}
+where each system admits a $T$-periodic limit cycle $Y(t)$ when $\ve=0$. We allow $\ve>0$ not necessarily small and assume general smooth vector fields $F:\mathbb{R}^n \rightarrow \mathbb{R}^n$ and a smooth coupling function $G:\mathbb{R}^n\times\mathbb{R}^n\rightarrow \mathbb{R}^n$. The scalars $a_{ij}$ modulate the strength of coupling between pairs of oscillators, whereas $\ve$ modulates the overall coupling strength of the network.
+
+Let $\theta_i$ be the phase of limit cycle $Y_i$ and define the phase difference $\phi_i=\theta_i-\theta_1$ for $i=2,\ldots,N$. Under general conditions, it is possible to derive a phase reduction of $N-1$ equations,
+\begin{align*}
+\dot \phi_i =& \ve\sum_{j=1}^N a_{ij} \h(-\phi_i,\phi_2-\phi_i,\ldots,\phi_N-\phi_i,\phi_j-\phi_i)- \ve\sum_{j=1}^N a_{ij} \h(0,\phi_2,\ldots,\phi_N,\phi_j), \quad i=2,\ldots,N,
+\end{align*}
+where
+\begin{equation*}
+\h(\eta_1,\ldots,\eta_N,\xi) = \frac{1}{T} \int_0^T \mathcal{Z}(\eta_1+s,\ldots,\eta_N+s) \cdot G(s,\xi+s)ds,
+\end{equation*}
+and $\mathcal{Z}$ is the higher-order phase response curve from \cite{wilson2020phase}. My theory produces Taylor truncations of the function $\h$. The higher the truncated order, the more accurately my theory reproduces phase-locked states of $N$ oscillators. This work will allow a thorough re-examination of classic oscillator theory using general oscillator models as opposed to idealizations.
+
+\bibliographystyle{plain}
+\bibliography{../refs.bib,../../youngmin-bard/bio,../../youngmin-bard/neuralfield,../../youngmin-bard/math,../../youngmin-bard/phase,../../youngmin-bard/computation,../../youngmin-bard/cortex,../../thomas-youngmin/notes/spines.bib,../../thomas-youngmin/notes/vesicles.bib,../../thomas-youngmin/notes/noise.bib,../../thomas-youngmin/notes/motors.bib}
+
+
+\end{document}
