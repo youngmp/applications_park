@@ -9,8 +9,9 @@ The organization differs significantly from year-to-year. I will fix this if I f
 
 The vast majority of applications were submitted through mathjobs.org.
 
-Fall 2017: Postdoc offers from University of Houston, University of Pennsylvania, and Brandeis.
-Fall 2018--Spring 2019: Postdoc offers from Brandeis and University of Tennessee Knoxville
-Fall 2019--Spring 2020: Did not apply
-Fall 2020--Spring 2021: Single postdoc offer from University of Manitoba
-Fall 2021--Spring 2022: One tenure-track job offer.
+Timeline:
+* Fall 2017: Postdoc offers from University of Houston, University of Pennsylvania, and Brandeis.
+* Fall 2018--Spring 2019: Postdoc offers from Brandeis and University of Tennessee Knoxville
+* Fall 2019--Spring 2020: Did not apply
+* Fall 2020--Spring 2021: Single postdoc offer from University of Manitoba
+* Fall 2021--Spring 2022: One tenure-track job offer.
