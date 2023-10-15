@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Stevens Institute of Technology}
+
+\begin{letter}
+{Search Committee\\
+Department of Mathematical Sciences\\
+Stevens Institute of Technology\\
+1 Castle Point Terrace\\
+Hoboken, NJ 07030}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the assistant professor tenure-track position at \School~Department of Mathematical Sciences. \input{intro0_dyn}
+
+\input{research}
+
+\School~features top researchers in applied mathematics (including \textbf{Darinka Dentcheva}), but representation in mathematical neuroscience is less salient. I will enhance the department's reputation through my independent research program: I use dynamical systems and bifurcation theory to solve problems of oscillator synchrony, molecular transport in neurons, and network function in biological systems (through subspace identification and machine learning).
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{University of Notre Dame}
+
+\begin{letter}
+{Search Committee\\
+Dept. of Applied and Computational Math and Statistics\\
+102G Crowley Hall\\
+University of Notre Dame\\
+Notre Dame, IN 46556}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the position of Assistant Professor at the \School~Department of Applied and Computational Mathematics and Statistics. \input{intro0_dyn}
+
+\input{research}
+
+\School~features top researchers in computational and mathematical neuroscience including \textbf{Giuseppe Vinci}. My experience in computational neuroscience will \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, teaching statement, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

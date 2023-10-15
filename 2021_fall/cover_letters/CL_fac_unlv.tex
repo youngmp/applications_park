@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+\def\School{UNLV}
+\begin{letter}
+{Hiring Committee\\
+University of Nevada, Las Vegas\\
+Dept of Mathematical Sciences\\
+4505 S. Maryland Pkwy Box 454020\\
+Las Vegas, NV 89154}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Hiring Committee,}
+
+I am applying for the position of tenure-track assistant professor in applied analysis at the \School~Department of Mathematical Sciences. \input{intro0_dyn}
+
+\input{research}
+
+\School~features strong researchers in mathematical biology such as \textbf{Amei Amei} and \textbf{Zhonghai Ding}, but representation in mathematical neuroscience is less salient. I will \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, research statement, and teaching statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Columbia University}
+
+\begin{letter}
+{Search Committee\\
+Dept. of Applied Physics and Applied Mathematics\\
+Columbia University, Seeley W. Mudd Hall\\
+500 West 120th street, suite 200, MC 4701\\
+New York, NY 10027
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the a postdoctoral position in applied mathematics at \School. \input{intro0}
+
+\input{research}
+
+\School~features top researchers who include natural science in their work including \textbf{Qiang Du} and \textbf{Chris Wiggins}, but representation in neuroscience is less salient. My skill set in stochastic dynamical systems and non-local equations will  \input{skills_blurb}\School's reputation in applied mathematics.
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, teaching statement, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

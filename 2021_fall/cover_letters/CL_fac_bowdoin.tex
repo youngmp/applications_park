@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+\def\School{Bowdoin College}
+\begin{letter}
+{Hiring Committee\\
+Mathematics\\
+Bowdoin College\\
+8600 College Station\\
+Brunswick, ME 04011-8486}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Hiring Committee,}
+
+I am applying for the position of Assistant Professor in Mathematics at \School. \input{intro0_dyn}
+
+\input{research}
+
+\School~features strong researchers who include natural sciences in their work including \textbf{Mary Lou Zeeman}, but representation in mathematical neuroscience is less salient. My skill set will augment their work through collaborations and I will enhance the department’s reputation through my independent research program. I use dynamical systems and bifurcation theory to solve problems of oscillator synchrony, molecular transport in neurons, and network function in biological systems (through subspace identification and machine learning).
+
+I am also committed to providing high-quality and equal education for all my students, as evidenced by my teaching evaluations. My teaching portfolio boasts eight years of teaching at different capacities (lectures, recitations, grading), at different levels (calculus sequence, differential equations, linear algebra, and discrete math), and at different institutions (Oberlin College, Case Western Reserve University, University of Pittsburgh, and Brandeis University). As a doctoral student, my students shortlisted me for the \textbf{Elizabeth Baranger teaching award}, the most prestigious teaching award at the University of Pittsburgh. I have also served as a guest lecturer for underprivileged Bangladeshi children at the Free Library of Philadelphia.
+
+Bowdowin College hosts an unusually comprehensive set of tools to help students succeed. If possible, I wish to participate in \textbf{THRIVE, BASE, and BSE}, in order to pass on the difficult lessons I learned as a first-generation American. I am especially touched by the existence of a peer mentoring program that explicitly mentions help with ADHD (I have witnessed first-hand the unbearable stress and anxiety that comes with ADHD in a competitive college environment).
+
+As part of my application I include a curriculum vitae, research statement, and teaching statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

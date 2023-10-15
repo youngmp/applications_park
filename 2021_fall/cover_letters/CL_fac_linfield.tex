@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+\def\School{Linfield University}
+\begin{letter}
+{Hiring Committee\\
+900 SE Baker St\\
+McMinnville, OR 97128}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Hiring Committee,}
+
+I am applying for the position of tenure-track assistant professor in Mathematics at \School. \input{intro0}
+
+\input{research}
+
+\School~features strong researchers in mathematical biology including \textbf{Diana White}, \textbf{Joseph Skufca}, \textbf{Marko Budišić}, \textbf{James Greene}, and \textbf{Bin Xu}, but representation in mathematical neuroscience is less salient. I will augment their work through collaborations, and I will enhance the department's reputation through my independent research program. I use dynamical systems and bifurcation theory to solve problems of neural phase-locking, molecular transport in neurons, and cortical network function (through subspace identification and machine learning).
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, research statement, and teaching statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}

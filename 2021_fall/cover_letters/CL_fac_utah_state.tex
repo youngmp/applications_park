@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Utah State}
+
+\begin{letter}
+{Search Committee\\
+Department of Mathematics and Statistics\\
+Utah State University\\
+3900 Old Main Hill\\
+Logan, UT 84322-3900
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the position of tenure-track Assistant Professor in the Department of Mathematics and Statistics at \School. \input{intro0_dyn}
+
+\input{research}
+
+\School~features top researchers in mathematical ecology, including \textbf{Brynja Kohler}, \textbf{Jim Powell}, and \textbf{Luis Gordillo}, but representation in neuroscience is less salient. My experience with stochastic dynamics will \input{skills_blurb}
+
+\input{teaching}
+
+As part of my application I include a curriculum vitae, teaching statement, and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

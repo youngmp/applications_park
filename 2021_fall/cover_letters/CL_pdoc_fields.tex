@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%------RMIT Letterhead------------%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{letter}
+
+%\usepackage[english]{babel}
+%\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+
+% you may specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc.)
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{gfsdidot}
+\usepackage[T1]{fontenc}
+
+\input{head.tex}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\def\School{Fields Institute}
+
+\begin{letter}
+{ATTN: Search Committee\\
+222 College Street\\
+Toronto, Ontario\\
+Canada M5T 3J1
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Members of the Search Committee,}
+
+I am applying for the Simons Postdoctoral Fellowship at the \School. \input{intro0}
+
+\input{research}
+
+The \School~would afford an opportunity to work with Sue Ann Campbell, a top researcher in mathematical neuroscience. My skill set will bolster her existing work through collaborations, and complement their work through independent research. I offer a decade's worth of experience in solving problems of oscillator entrainment and synchrony, and firmly believe that my presence will bolster University of Waterloo and the \School's  reputation in applied mathematics.
+
+As part of my application I include a curriculum vitae and research statement. Please request additional details as needed, and I look forward to our correspondence.
+
+\closing{Sincerely,}
+%----------------------------------------------------------------------------------------
+\end{letter}
+\end{document}
