@@ -1,0 +1,31 @@
+// Job Search diagram
+// 2020-2021 application cycle
+// https://sankeymatic.com/build/
+// Flows:
+
+Postdoc Applications [1] Offer
+Postdoc Applications [1] Zoom Interview
+Postdoc Applications [17] Rejected
+Postdoc Applications [60] No Answer
+Zoom Interview [1] No Answer
+Offer [1] Accepted
+
+Faculty Applications [30] No Answer
+Faculty Applications [35] Rejected
+Faculty Applications [5] Zoom
+Zoom [1] On-campus
+Zoom [2] No Answer
+Zoom [2] Rejected
+On-campus [1] No Offer
+
+
+// Node definitions & Colors:
+:Postdoc Applications #396
+:Faculty Applications #855
+:Zoom Interview #0C9 <<
+:Rejected #F90 <<
+:No Answer #DDD <<
+:No Offer #F90 <<
+:On-campus #0C0
+:Offer #0C0
+:Accepted #0C0

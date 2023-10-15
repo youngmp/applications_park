@@ -1,0 +1,48 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% extra packages
+% \usepackage{amsrefs}
+% \usepackage[autocite=inline,labelalpha=true]{biblatex}
+
+%\usepackage[top=1in, left=1in, right=1in, bottom=1in]{geometry}
+\usepackage{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{siunitx}
+
+\newcommand{\ve}{\varepsilon}
+\newcommand{\h}{\mathcal{H}}
+
+%\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Data Science Project Plans}
+
+\Large Youngmin Park
+\end{center}
+
+\subsection*{Vision: Machine Learning for Sparse Data with Fewer Iterations}
+My goal is to introduce improvements to machine-learning methods to allow them to learn with sparse data and fewer iterations. To achieve this goal, it is necessary to introduce physical constraints. Indeed, this type of work is an active area of research in fluid dynamics \cite{mohan2020embedding} and Earth science \cite{pelissier2020combining}, where the Navier-Stokes equations are incorporated into algorithms to improve learning performance.
+
+\subsection*{Physical Constraints Provide Insights Into Biological Neural Networks}
+However, little work has been done to implement physical constraints into biological neural networks in order to enhance how such networks operate, despite vast connectome data \cite{glasser2011mapping}. I hypothesize that there exist neural networks with biologically-inspired constraints that are capable of learning far more rapidly than general neural networks. In turn, discovering such networks will enable neuroscientists to uncover the principles of neural computation.
+
+\subsection*{Project: Validating a Model of the Auditory Cortex}
+The auditory cortex is a natural starting point for implementing my ideas, because I have experience in modeling phenomena from this brain region \cite{park2020circuit}. My model demonstrated that simple cortical mechanisms including synaptic facilitation and depression are sufficient to reproduce numerous types of auditory processing. The model included excitatory (pyramidal) neurons as well as the inhibitory subtypes somatostatin-positive (SOM) and parvalbumin-positive (PV) interneurons, which were necessary to reproduce optogenetic results. While we performed some parameter sweeps, the ability of the model to reproduce additional auditory phenomena was not explored in depth. Many questions remain regarding robustness of the model and its functional similarity to real cortical networks. 
+
+\subsection*{Project: Discovering Key Contributions to Learning in the Neocortex}
+In order to construct biologically-inspired neural networks, the simplest starting point is to view the cortex as a large number of coupled differential equations with heterogeneous parameters. This starting point is natural  because all parameters and connections are explicit and general because it extends beyond cortical responses to auditory inputs, indicating just how powerful this framework can be. This project aims to use automated and theoretical tools, including machine learning and inverse methods, to uncover the parameter spaces within which healthy and unhealthy cortical networks operate while including known synaptic dynamics such as facilitation, depression, and STDP \cite{lee2018training}. I will include physical constraints about the network such as the physical and statistical properties of dendrites and axons.
+
+\subsection*{Project: Objective Functions of Non-Equilibrium Processes}
+Objective functions tend to require steady-state processes, but brain activity is rarely ever steady-state. The goal of this project is to develop the correct mathematical framework for objective functions where the underlying process is fundamentally non-equilibrium. For example, neural responses to auditory inputs are entirely non-equilibirum phenomena. The starting point will be computational and heuristic, by defining the objective function as the similarity between the responses of a given neural network to different auditory experiments. The first goal will be to determine which physical constraints and synaptic dynamics contribute most to network performance. Using this experience, the goal will shift to the theoretical question of which general objective function(s) are best suited for non-equilibrium processes.
+
+\bibliographystyle{plain}
+\bibliography{refs.bib,../youngmin-bard/bio,../youngmin-bard/neuralfield,../youngmin-bard/math,../youngmin-bard/phase,../youngmin-bard/computation,../youngmin-bard/cortex,../thomas-youngmin/notes/spines.bib,../thomas-youngmin/notes/vesicles.bib,../thomas-youngmin/notes/noise.bib,../thomas-youngmin/notes/motors.bib}
+
+
+\end{document}
