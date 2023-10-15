@@ -1,0 +1,54 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% extra packages
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+
+%\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Statement of Research Interests}
+
+\Large Youngmin Park
+\end{center}
+
+
+\section{Background}
+Generally, I am interested in learning the mathematics necessary to address problems that arise in biology. In practice, my research is largely focused on the study of deterministic, smooth and non-smooth dynamical systems, with a focus on systems that arise in mathematical neuroscience. In this research statement, I summarize my first-author projects.
+
+\subsection{Calculating the Infinitesimal Phase Response Curve of Piecewise Smooth Systems}
+My masters work with Peter J. Thomas is on the infinitesimal phase response curves (iPRCs) of planar piecewise smooth dynamical systems \cite{park2013infinitesimal}. The iPRC is often a necessary tool for predicting entrainment and synchronization of weakly coupled or weakly forced oscillators. In piecewise smooth systems, the iPRC may be discontinuous due to the piecewise defined vector field. My masters thesis shows how to compute the exact size of these discontinuities, provided that solutions are continuous and transversely cross boundaries between the piecewise defined vector fields.
+
+\subsection{Reducing Dynamics Through a Separation of Timescales}
+My doctoral work is on smooth dynamical systems, in particular the reduction of unwieldy high-dimensional systems to low-dimensional systems that are more amenable to a classic dynamical systems analysis. In the systems I have considered with my doctoral advisor G. Bard Ermentrout, the reduction is possible due to a natural separation of timescales.
+
+\subsubsection{Synchronization of Weakly Coupled Cortical Neurons Modulated by a Slowly Varying Concentration of Acetylcholine}
+The first project to exploit multiple timescales is on the synchronization of conductance-based neural models modulated by a slowly varying level of acetylcholine. In this model, the period of the neural spikes are orders of magnitude faster than the changes in acetylcholine. This separation of timescales allows for a phase reduction and a standard weak coupling analysis \cite{park2016weakly}.
+
+\subsubsection{Spatio-Temporal Dynamics of a Bump Solution of a Neural Field Model}
+In the second project, we analyze a particular neural field model, first studied in \cite{pinto_ermentrout_2001_siam}, with weak and slow adaptation. Generally, neural field models are capable of producing a vast number of spatio-temporal patterns \cite{breakspear2017dynamic}, but this model produces a single bump solution that exhibits translational movement depending on the strength of a weak input current and the weak adaptation variable. We reduce the infinite dimensional partial integro-differential equation to a system of two scalar delay integro-differential equations, then analyze the many bifurcations in the movement of the bump solution on the ring and torus \cite{park2018scalar}. We do not use non-smooth assumptions like the high-gain limit of the firing rate function, and thus our result is more general in this sense.
+
+\subsection{The Connection Between the Mean-Field Description and Spiking Neurons}
+In the third and final project, we consider a system of synaptically coupled oscillators, where the synapses are slow, and thus its dynamics are on a different timescale relative to the oscillators. We also allow the slow synaptic variables to oscillate in their time-averaged dynamics (also called mean-field dynamics). So long as the oscillations of the synaptic variables are sufficiently small in magnitude, we can predict the spiking-level synchronization properties only given the mean-field dynamics \cite{park2018multiple}. This work demonstrates an interesting proof-of-concept, that it may be possible to predict spiking-level information, e.g., the degree of synchrony in a neural population, given only coarse-grain recordings.
+
+\subsection{General Weakly Coupled Piecewise Smooth Oscillators}
+In addition to these primary studies, I have continued to build on my masters work in continued collaborations with my masters thesis advisor Peter J. Thomas (with colleagues Hillel J. Chiel and Kendrick M. Shaw). We have generalized the result of my masters thesis to $n$-dimensions and applied the result to a weakly coupled piecewise smooth systems \cite{park2016infinitesimal}. Most existing literature on coupling of piecewise smooth systems are often restricted to one or a combination of linear coupling, planar systems, and piecewise linear vector fields \cite{coombes2016synchrony,izhikevich2000phase,coombes2012nonsmooth}. Although we do require solutions to be continuous, our weak coupling analysis applies to piecewise smooth systems of arbitrary dimension with nonlinear, heterogeneous coupling \cite{park2018infinitesimal}.
+
+\section{Future Directions}
+Each of these works have several potential, fruitful directions. The extension of weak coupling theory to piecewise smooth oscillators opens a path to a rigorous re-derivation of the classic weak coupling results to an extremely rich class of dynamical systems. I am excited to see the how far one could extend the classic results on weak coupling.
+
+In my second paper for my doctorate, we assume a time-invariant input current. If the input current is allowed to vary, there is potential for an entirely different set of phenomena in addition to what is already a rich set of behaviors.
+
+As implicitly mentioned above, my doctorate thesis depends strongly on a weak and slow assumption. These assumptions are rather general and could be found in many other systems. For example, traveling waves with some sufficiently slow variables could be amenable to a multiple timescale analysis, where the reduced dynamics could describe the velocity of the wave and the direction of the wave front on a two dimensional domain. Any neural field model that produces a simple, structurally coherent pattern with some weak and slow dynamics are good candidates for this reduction analysis.
+
+
+\bibliographystyle{plain}
+\bibliography{../../youngmin-bard/bibliography,../../youngmin-bard/ymp,../../youngmin-bard/bio,../../youngmin-bard/neuralfield,../../youngmin-bard/math,../../youngmin-bard/phase}
+
+
+\end{document}
