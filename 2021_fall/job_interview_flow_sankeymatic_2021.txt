@@ -1,0 +1,31 @@
+// Job Search diagram
+// 2021-2022 application cycle
+// https://sankeymatic.com/build/
+// Flows:
+
+Faculty Applications [6] Zoom Interview
+Faculty Applications [6] Rejected
+Faculty Applications [74] No Answer
+Zoom Interview [1] TBD
+Zoom Interview [2] No Answer
+Zoom Interview [1] Withdrawn
+Zoom Interview [2] On-campus
+Faculty Applications [2] On-campus
+// On-campus [2] Rejected
+// On-campus [2] Offer
+On-campus [4] TBD
+//Offer [1] Accepted
+//Offer [1] Declined
+
+
+
+// Node definitions & Colors:
+:Faculty Applications #396
+:Zoom Interview #0C9 <<
+:Rejected #F90 <<
+:No Answer #DDD <<
+:No Offer #F90 <<
+:On-campus #0C0
+:Offer #0C0
+:Accepted #0C0
+:Declined #96F <<
