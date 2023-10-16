@@ -6,7 +6,7 @@ I have not checked that everything will compile and I will not provide missing f
 The vast majority of applications were submitted through mathjobs.org.
 
 Timeline:
-* Fall 2017: Postdoc offers from University of Houston, University of Pennsylvania, and Brandeis. (These applications have not been included)
+* Fall 2017--Spring 2018: Postdoc offers from University of Houston, University of Pennsylvania, and Brandeis. (These applications have not been included)
 * Fall 2018--Spring 2019: Postdoc offers from Brandeis and University of Tennessee Knoxville
 * Fall 2019--Spring 2020: Did not apply
 * Fall 2020--Spring 2021: Postdoc offer from University of Manitoba
