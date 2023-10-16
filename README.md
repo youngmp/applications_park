@@ -12,8 +12,8 @@ Timeline:
 * Fall 2020--Spring 2021: Single postdoc offer from University of Manitoba
 * Fall 2021--Spring 2022: One tenure-track job offer.
 
-<img src="https://i.imgur.com/k3njMzg.png">
+<img src="https://i.imgur.com/k3njMzg.png" width="50%">
 
-<img src="https://i.imgur.com/lzlrlvI.png">
+<img src="https://i.imgur.com/lzlrlvI.png"  width="50%">
 
-<img src="https://i.imgur.com/cTAetcX.png">
+<img src="https://i.imgur.com/cTAetcX.png"  width="50%">
