@@ -1,0 +1,72 @@
+\begin{thebibliography}{10}
+
+\bibitem{hamilton2013optogenetic}
+Liberty~S Hamilton, Jascha Sohl-Dickstein, Alexander~G Huth, Vanessa~M Carels,
+  Karl Deisseroth, and Shaowen Bao.
+\newblock Optogenetic activation of an inhibitory network enhances feedforward
+  functional connectivity in auditory cortex.
+\newblock {\em Neuron}, 80(4):1066--1076, 2013.
+
+\bibitem{keller2018gap}
+Clifford~H Keller, Katherine Kaylegian, and Michael Wehr.
+\newblock Gap encoding by parvalbumin-expressing interneurons in auditory
+  cortex.
+\newblock {\em Journal of neurophysiology}, 2018.
+
+\bibitem{lee2008synaptic}
+Charles~C Lee and S~Murray Sherman.
+\newblock Synaptic properties of thalamic and intracortical inputs to layer 4
+  of the first-and higher-order cortical areas in the auditory and
+  somatosensory systems.
+\newblock {\em Journal of neurophysiology}, 100(1):317--326, 2008.
+
+\bibitem{litwin2016inhibitory}
+Ashok Litwin-Kumar, Robert Rosenbaum, and Brent Doiron.
+\newblock Inhibitory stabilization and visual coding in cortical circuits with
+  multiple interneuron subtypes.
+\newblock {\em Journal of neurophysiology}, 115(3):1399--1409, 2016.
+
+\bibitem{mill2011neurocomputational}
+Robert Mill, Martin Coath, Thomas Wennekers, and Susan~L Denham.
+\newblock A neurocomputational model of stimulus-specific adaptation to oddball
+  and markov sequences.
+\newblock {\em PLoS computational biology}, 7(8):e1002117, 2011.
+
+\bibitem{natan2015complementary}
+Ryan~G Natan, John~J Briguglio, Laetitia Mwilambwe-Tshilobo, Sara~I Jones, Mark
+  Aizenberg, Ethan~M Goldberg, and Maria~Neimark Geffen.
+\newblock Complementary control of sensory adaptation by two types of cortical
+  interneurons.
+\newblock {\em Elife}, 4, 2015.
+
+\bibitem{natan2017cortical}
+Ryan~G Natan, Winnie Rao, and Maria~Neimark Geffen.
+\newblock Cortical interneurons ensure maintenance of frequency tuning
+  following adaptation.
+\newblock {\em bioRxiv}, page 172338, 2017.
+
+\bibitem{pfeffer2013inhibition}
+Carsten~K Pfeffer, Mingshan Xue, Miao He, Z~Josh Huang, and Massimo Scanziani.
+\newblock Inhibition of inhibition in visual cortex: the logic of connections
+  between molecularly distinct interneurons.
+\newblock {\em Nature neuroscience}, 16(8):1068, 2013.
+
+\bibitem{phillips2016asymmetric}
+Elizabeth~AK Phillips and Andrea~R Hasenstaub.
+\newblock Asymmetric effects of activating and inactivating cortical
+  interneurons.
+\newblock {\em Elife}, 5, 2016.
+
+\bibitem{phillips2017cortical}
+Elizabeth~AK Phillips, Christoph~E Schreiner, and Andrea~R Hasenstaub.
+\newblock Cortical interneurons differentially regulate the effects of acoustic
+  context.
+\newblock {\em Cell reports}, 20(4):771--778, 2017.
+
+\bibitem{seybold2015inhibitory}
+Bryan~A Seybold, Elizabeth~AK Phillips, Christoph~E Schreiner, and Andrea~R
+  Hasenstaub.
+\newblock Inhibitory actions unified by network integration.
+\newblock {\em Neuron}, 87(6):1181--1192, 2015.
+
+\end{thebibliography}
