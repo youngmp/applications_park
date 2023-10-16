@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{breakspear2005unifying}
+M~Breakspear, JA~Roberts, John~R Terry, S~Rodrigues, N~Mahant, and PA~Robinson.
+\newblock A unifying explanation of primary generalized seizures through
+  nonlinear brain modeling and bifurcation analysis.
+\newblock {\em Cerebral Cortex}, 16(9):1296--1313, 2005.
+
+\bibitem{park2016weakly}
+Youngmin Park and Bard Ermentrout.
+\newblock Weakly coupled oscillators in a slowly varying world.
+\newblock {\em Journal of Computational Neuroscience}, 40(3):269, 2016.
+
+\bibitem{park2016infinitesimal}
+Youngmin Park, Kendrick~M Shaw, Hillel~J Chiel, and Peter~J Thomas.
+\newblock The infinitesimal phase response curves of oscillators in piecewise
+  smooth dynamical systems.
+\newblock {\em arXiv preprint arXiv:1603.03503}, 2016.
+
+\bibitem{pinto_ermentrout_2001_siam}
+D.~Pinto and G.~Bard Ermentrout.
+\newblock Spatially {structured} {activity} in {synaptically} {coupled}
+  {neuronal} {networks}: {I}. {Traveling} {fronts} and {pulses}.
+\newblock {\em SIAM Journal on Applied Mathematics}, 62(1):206--225, January
+  2001.
+
+\bibitem{rodrigues2009transitions}
+Serafim Rodrigues, David Barton, Robert Szalai, Oscar Benjamin, Mark~P
+  Richardson, and John~R Terry.
+\newblock Transitions to spike-wave oscillations and epileptic dynamics in a
+  human cortico-thalamic mean-field model.
+\newblock {\em Journal of computational neuroscience}, 27(3):507--526, 2009.
+
+\bibitem{rodrigues2010mappings}
+Serafim Rodrigues, Anton~V Chizhov, Frank Marten, and John~R Terry.
+\newblock Mappings between a macroscopic neural-mass model and a reduced
+  conductance-based model.
+\newblock {\em Biological cybernetics}, 102(5):361--371, 2010.
+
+\bibitem{rodrigues2006genesis}
+Serafim Rodrigues, John~R Terry, and Michael Breakspear.
+\newblock On the genesis of spike-wave oscillations in a mean-field model of
+  human thalamic and corticothalamic dynamics.
+\newblock {\em Physics Letters A}, 355(4):352--357, 2006.
+
+\end{thebibliography}

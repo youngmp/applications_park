@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: youngmin_park_research_statement.aux
+The style file: plain.bst
+Database file #1: ../../youngmin-bard/bibliography.bib
+Database file #2: ../../youngmin-bard/ymp.bib
+Database file #3: ../../youngmin-bard/bio.bib
+Database file #4: ../../youngmin-bard/neuralfield.bib
+Database file #5: ../../youngmin-bard/math.bib
+Database file #6: ../../youngmin-bard/phase.bib
+Repeated entry---line 455 of file ../../youngmin-bard/phase.bib
+ : @mastersthesis{park2013infinitesimal
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 513 of file ../../youngmin-bard/phase.bib
+ : @article{park2016weakly
+ :                        ,
+I'm skipping whatever remains of this entry
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            570 strings with 5986 characters,
+and the built_in function-call counts, 3369 in all, are:
+= -- 338
+> -- 150
+< -- 1
++ -- 62
+- -- 48
+* -- 237
+:= -- 589
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 57
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 120
+empty$ -- 255
+format.name$ -- 48
+if$ -- 679
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 10
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 44
+preamble$ -- 1
+purify$ -- 46
+quote$ -- 0
+skip$ -- 86
+stack$ -- 0
+substring$ -- 223
+swap$ -- 15
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 36
+width$ -- 13
+write$ -- 120
+(There were 2 error messages)

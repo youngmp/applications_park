@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: presentation_houston.aux
+The style file: plainnat.bst
+Illegal, another \bibstyle command---line 138 of file presentation_houston.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+I couldn't open database file audio.bib
+---line 139 of file presentation_houston.aux
+ : \bibdata{../../../youngmin-bard/ymp,../../../youngmin-bard/neuralfield,../../../youngmin-bard/bio,audio
+ :                                                                                                        }
+I'm skipping whatever remains of this command
+Database file #1: ../../../youngmin-bard/ymp.bib
+Database file #2: ../../../youngmin-bard/neuralfield.bib
+Database file #3: ../../../youngmin-bard/bio.bib
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            610 strings with 5337 characters,
+and the built_in function-call counts, 824 in all, are:
+= -- 75
+> -- 31
+< -- 2
++ -- 11
+- -- 9
+* -- 61
+:= -- 135
+add.period$ -- 9
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 40
+empty$ -- 73
+format.name$ -- 13
+if$ -- 167
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 3
+newline$ -- 21
+num.names$ -- 8
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 28
+stack$ -- 0
+substring$ -- 29
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 17
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 38
+(There were 2 error messages)

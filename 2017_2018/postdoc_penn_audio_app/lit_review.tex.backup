@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+
+% extra packages
+\usepackage{amsmath, amssymb}
+% \usepackage[round]{natbib}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{geometry}
+\usepackage{microtype}
+% \usepackage{breakcites}
+\geometry{margin=.5in}
+
+% to use breakcites in linux, run
+% sudo apt-get install texlive-bibtex-extra
+
+\setlength{\parindent}{0pt}
+
+% Bard's shorthand commands
+\newcommand{\crefrangeconjunction}{--}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\y}{\mathbf{y}}
+\newcommand{\z}{\mathbf{z}}
+\newcommand{\F}{\mathbf{F}}
+\newcommand{\q}{\boldsymbol{\theta}}
+\newcommand{\io}{\int_\Omega}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\pa}{\partial}
+\newcommand{\R}{\mathbb{R}}
+
+
+
+%opening
+\title{Literature Review for Maria Geffen Lab}
+\author{Youngmin Park}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+The purpose of this document is to detail possible computational projects related to auditory coding.
+
+\section{Biophysical Mechanism for Gain Control}
+Many of Maria Geffen's papers involve using a linear-non-linear model (LN model) to fit firing rate data as a function of a convolution of the neural receptive field with the input signal (see for example \cite{natan2016gain}). This type of model fitting is of interest because gain control of firing rates appears to be a hallmark of many neural coding problems.
+
+In particular, gain control depends on the degree of contrast of the input stimulus. In \cite{rabinowitz2011contrast}, the authors find that if the standard deviation of the stimulus is low, the neurons have a relatively high gain, and when the standard deviation of the input stimulus is high, the neurons have a relatively low gain.
+
+The biophyical mechanism for this gain control is unknown, although several hypotheses exist. The authors of \cite{rabinowitz2011contrast} cite two papers. The first paper suggests that gain control occurs through an additional pool of coritcal neurons that modify the conductance of suggests that gain control depends on an intracortical network, where the gain control appears through a shunting inhibition \cite{carandini1997linearity}. In particular, the model is the same as the classic LN model, but the firing rate feeds into other cortical cells that 
+
+The second paper suggests that given synaptic balance, the rate of inhibitory and excitatory inputs contributes to gain control \cite{abbott2005drivers}. They demonstrate using an integrate and fire model the type of divisive change in firing rate as a function of input current that are observed in experiments.
+
+Naively, the second paper may be a better candidate for modeling, as 
+
+\bibliographystyle{plain} 
+\bibliography{audio}
+
+
+
+\end{document}
+
+

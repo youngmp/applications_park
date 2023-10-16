@@ -1,0 +1,7 @@
+application to email: oct 3rd 2017:
+
+Applications are invited for post-doctoral research position in the laboratory of Dr. Maxim Bazhenov (http://www.bazhlab.ucsd.edu/) at the University of California, San Diego to study role of sleep in memory and learning. The ultimate goal of the project is to understand how the interaction among brain areas during sleep leads to consolidation of memory for recent learning and how sensory or electrical stimulation can enhance memory consolidation. This project involves close collaboration with several experimental laboratories. 
+
+The successful candidate will be responsible for the design of the anatomically realistic brain network models based on experimental data. These models will be applied to understand network dynamics that are involved in the processes of memory consolidation, to design optimal stimulation approaches, to guide data analysis and to make predictions for future experimental studies. Qualified applicants are expected to have experience in computational/theoretical neuroscience and neural modeling. Programming experience with C/C++ is required. Knowledge of PYTHON and MATLAB is a significant plus. 
+
+The University of California offers excellent benefits. Salary is based on research experience. Applicants should send a brief statement of research interests, a CV and the names of three references to Maxim Bazhenov at mbazhenov@ucsd.edu 

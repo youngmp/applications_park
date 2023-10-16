@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: penn_presentation_ymp.aux
+The style file: plainnat.bst
+Illegal, another \bibstyle command---line 178 of file penn_presentation_ymp.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+I couldn't open database file audio.bib
+---line 179 of file penn_presentation_ymp.aux
+ : \bibdata{../../../youngmin-bard/ymp,../../../youngmin-bard/neuralfield,../../../youngmin-bard/bio,audio
+ :                                                                                                        }
+I'm skipping whatever remains of this command
+Database file #1: ../../../youngmin-bard/ymp.bib
+Database file #2: ../../../youngmin-bard/neuralfield.bib
+Repeated entry---line 129 of file ../../../youngmin-bard/neuralfield.bib
+ : @article{fung_spontaneous_2015
+ :                               ,
+I'm skipping whatever remains of this entry
+Database file #3: ../../../youngmin-bard/bio.bib
+You've used 14 entries,
+            2773 wiz_defined-function locations,
+            714 strings with 8164 characters,
+and the built_in function-call counts, 6875 in all, are:
+= -- 674
+> -- 326
+< -- 11
++ -- 111
+- -- 96
+* -- 612
+:= -- 1067
+add.period$ -- 68
+call.type$ -- 14
+change.case$ -- 73
+chr.to.int$ -- 13
+cite$ -- 28
+duplicate$ -- 283
+empty$ -- 561
+format.name$ -- 128
+if$ -- 1429
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 15
+newline$ -- 104
+num.names$ -- 56
+pop$ -- 101
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 205
+stack$ -- 0
+substring$ -- 356
+swap$ -- 26
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 149
+warning$ -- 0
+while$ -- 65
+width$ -- 0
+write$ -- 240
+(There were 3 error messages)

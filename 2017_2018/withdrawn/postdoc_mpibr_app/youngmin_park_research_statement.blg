@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: youngmin_park_research_statement.aux
+The style file: plain.bst
+Database file #1: ../../youngmin-bard/bibliography.bib
+Database file #2: ../../youngmin-bard/ymp.bib
+Repeated entry---line 168 of file ../../youngmin-bard/ymp.bib
+ : @article{rubinrubin
+ :                    ,
+I'm skipping whatever remains of this entry
+Database file #3: ../../youngmin-bard/bio.bib
+Database file #4: ../../youngmin-bard/neuralfield.bib
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            539 strings with 5283 characters,
+and the built_in function-call counts, 1751 in all, are:
+= -- 169
+> -- 81
+< -- 0
++ -- 33
+- -- 26
+* -- 127
+:= -- 317
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 62
+empty$ -- 133
+format.name$ -- 26
+if$ -- 348
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 5
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 22
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 101
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 17
+width$ -- 7
+write$ -- 67
+(There was 1 error message)

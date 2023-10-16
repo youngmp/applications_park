@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{breakspear2017dynamic}
+Michael Breakspear.
+\newblock Dynamic models of large-scale brain activity.
+\newblock {\em Nature neuroscience}, 20(3):340--352, 2017.
+
+\bibitem{park2013infinitesimal}
+Youngmin Park.
+\newblock Infinitesimal phase response curves for piecewise smooth dynamical
+  systems.
+\newblock Master's thesis, Case Western Reserve University, 2013.
+
+\bibitem{park2016weakly}
+Youngmin Park and Bard Ermentrout.
+\newblock Weakly coupled oscillators in a slowly varying world.
+\newblock {\em Journal of Computational Neuroscience}, 40(3):269, 2016.
+
+\bibitem{pinto_ermentrout_2001_siam}
+D.~Pinto and G.~Bard Ermentrout.
+\newblock Spatially {structured} {activity} in {synaptically} {coupled}
+  {neuronal} {networks}: {I}. {Traveling} {fronts} and {pulses}.
+\newblock {\em SIAM Journal on Applied Mathematics}, 62(1):206--225, January
+  2001.
+
+\end{thebibliography}

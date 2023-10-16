@@ -1,0 +1,64 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% extra packages
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+
+%\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Letter of Motivation}
+
+\Large Youngmin Park
+\end{center}
+
+
+\section{Introduction}
+\subsection{What are your abilities in regard to mathematical pen-and-paper calculations and numerical simulations? }
+My academic background is quantitative with a bachelors and masters in applied mathematics in biology. I have taken several courses in pure and applied math as part of my undergraduate and masters degrees. My pure math classes included real analysis, linear algebra, convex geometry, and abstract algebra. My applied math classes included numerical analysis, parameter estimation, computational neuroscience, and computational biology. Outside of classes, as my research was in computational neuroscience and dynamical systems, I learned standard programs like XPPAUTO, MATLAB, and Python to name a few. These skills set the groundwork for my continued computational neuroscience research in my PhD program.
+
+My PhD program has offered a strong set of applied mathematics courses, in particular those with methods frequently used in mathematical, computational, and theoretical neuroscience. This experience has lead to the submission of several papers and a book chapter in press (please refer to the CV and the summaries below for details). Thus, I am deeply familiar with, and greatly enjoy, mathematical pen-and-paper calculations and numerical simulations.
+
+\subsection{What are your abilities/experience with respect to \textit{in vitro}/\textit{in vivo} physiology?}
+I have no abilities involving \textit{in vitro} or \textit{in vivo} physiology. However, I make time to visit experimental labs to observe experiments. As an undergrad this task was particularly easy as I worked alongside several biologists interested in soft body mechanics (Hillel Chiel lab at Case Western Reserve University). I had the pleasure of watching experiments on the buccal ganglion and buccal mass of \textit{Aplysia Californica} as well as presentations on the gathered data.
+
+More recently, I was allowed to watch a postdoc in the Alison Barth laboratory at Carnegie Mellon University perform electrophysiology experiments to determine particular neural pathways of pain in mice.
+
+\subsection{Why would you like to work in neuroscience? What sort of project do you think would be ideal for you?}
+Generally, I am motivated to use my expertise to solve problems in biology, but in particular I have found no shortage of open problems in mathematical and theoretical neuroscience. I am also interested in research that works more closely with real data. In my current work, the problems we solve are sufficiently abstracted from reality that the connection to neuroscience is only at a high level.
+
+My project preferences are rather broad as I only prefer to work with biologically-motivated problems. At the moment, I have experience in dynamical systems theory and not as much in information theory or statistics. However, as my publication history shows, I am willing to learn the skills necessary to make significant contributions.
+
+\subsection{How comfortable do you feel writing in English, do you enjoy this process?}
+English is my native language, and writing (and improving this skill) is a process I very much enjoy.
+
+
+\section{Summary of Projects}
+
+\subsection{The Infinitesimal Phase Response Curve of Piecewise Smooth Systems}
+My masters work is on the infinitesimal phase response curves (iPRCs) of planar piecewise smooth dynamical systems \cite{park2013infinitesimal}. The iPRC is often a necessary tool for predicting entrainment and synchronization of weakly coupled or weakly forced oscillators. In piecewise smooth systems, the iPRC may be discontinuous due to the piecewise defined vector field. My masters thesis shows how to compute the exact size of these discontinuities, provided that solutions are continuous and transversely cross boundaries between the piecewise defined vector fields.
+
+In recent work, we generalize the result from planar piecewise smooth systems to $n$-dimensional piecewise smooth systems, and consider applications to weak coupling \cite{park2016infinitesimal}. This work has been submitted to the European Journal of Applied Mathematics.
+
+\subsection{Scalar Reduction of Dynamics Through a Separation of Timescales}
+My doctoral work is on smooth dynamical systems, in particular the reduction of intractable high-dimensional systems to low-dimensional systems that are more amenable to a classic dynamical systems analysis. In the systems I have considered with my doctoral advisor Bard Ermentrout, the reduction is possible due to a natural separation of timescales.
+
+\subsubsection{Synchronization of Weakly Coupled Cortical Neurons Modulated by a Slowly Varying Concentration of Acetylcholine}
+The first project on this theme is on the synchronization of conductance-based neural models modulated by a slowly varying level of acetylcholine. In this system, the period of the neural spikes are orders of magnitude faster than the varying concentration of acetylcholine. This separation of timescales allows for a phase reduction and a standard weak coupling analysis \cite{park2016weakly}.
+
+\subsubsection{Spatio-Temporal Dynamics of a Neural Field Model}
+In the second project, we analyze a neural field model with weak and slow adaptation (the model was first studied in \cite{pinto_ermentrout_2001_siam} with possibly non-slow and non-weak adaptation). This model produces a single bump solution that exhibits translational movement depending on the strength of a weak input current and the weak adaptation variable. We reduce the infinite dimensional partial integro-differential equation to a system of two scalar delay integro-differential equations, then analyze the many bifurcations in the movement of the bump solution on the ring and torus. We do not use non-smooth assumptions like the high-gain limit of the firing rate function. This paper has been submitted to SIADS.
+
+\subsection{The Connection Between the Mean-Field Description and Spiking Neurons}
+In the third and final project of my dissertation, we seek to derive the connection between the mean field description of neural networks and neural activity at the spiking level. Recent works seek to address this issue using theta neuron models \cite{laing2014derivation}, but the general case remains unsolved. In our approach, we assume a network of heterogeneous, possibly multi-dimensional oscillators with slow synapses. In this case, we can rephrase the problem as a weak coupling problem \cite{rubinrubin}. In preliminary results using slowly varying synapses with small amplitude, we derive a complementary set of phase difference equations alongside the mean field description.
+
+\bibliographystyle{plain}
+\bibliography{../../youngmin-bard/bibliography,../../youngmin-bard/ymp,../../youngmin-bard/bio,../../youngmin-bard/neuralfield}
+
+
+\end{document}

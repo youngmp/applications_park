@@ -1,0 +1,23 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Keener(1988)]{keener}
+James~P Keener.
+\newblock \emph{{Principles of applied mathematics}}.
+\newblock Addison-Wesley, 1988.
+
+\bibitem[Pinto and Ermentrout(2001)]{pinto_ermentrout_2001_siam}
+D.~Pinto and G.~Bard Ermentrout.
+\newblock Spatially {structured} {activity} in {synaptically} {coupled}
+  {neuronal} {networks}: {I}. {Traveling} {fronts} and {pulses}.
+\newblock \emph{SIAM Journal on Applied Mathematics}, 62\penalty0 (1):\penalty0
+  206--225, January 2001.
+\newblock ISSN 0036-1399.
+\newblock \doi{10.1137/S0036139900346453}.
+\newblock URL \url{http://epubs.siam.org/doi/abs/10.1137/S0036139900346453}.
+
+\end{thebibliography}

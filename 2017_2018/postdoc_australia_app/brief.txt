@@ -1,0 +1,60 @@
+email sep 19 2017
+
+Mathematical Neuroscience Research Fellow (full time 3 year appointment)
+- Innovative biomedical modelling
+- Attractive salary packaging & superannuation options
+
+This research fellow will pursue large-scale computational modelling and
+simulation of brain activity, and innovative analyses of time series and
+neuroimaging data, with particular focus on epilepsy.
+
+*Responsibilities*
+
+- You will contribute to developing and analysing new mathematical models of
+  large-scale brain activity, including both biophysical neural mass models and
+  networks of non-linear oscillators.
+
+- Simulate computational models on GPUs or high performance computing clusters,
+  and collaborate in applying these to clinical and neuroscience research.
+
+- Perform innovative analyses of high-dimensional neurophysiological and
+  neuroimaging data.
+
+- Contribute to experimental design and prepare manuscripts for related studies.
+
+- Participate in intra-mural group activities, including presentation at
+  lab meetings and collaboration with other lab members and clinicians.
+
+*About you*
+
+Essential: The successful applicant will possess the following: PhD in
+mathematics, physics, bioengineering, computer sciences or related field;
+demonstrated ability to implement mathematical methods in code; evidence of
+strong oral and written communication skills.
+
+Desirable: Ideally candidates may also have a published track record in
+analysis of non-linear dynamical systems, particularly neural mass or neural
+field models or coupled non-linear oscillators; previous experience with
+GPU programming or high performance computing clusters; previous experience in
+neuroscience research; or expertise in time series analysis or signal
+processing.
+
+*About the lab*
+
+Led by Prof Michael Breakspear, the Systems Neuroscience Group (SNG) is an
+independent research team within QIMR Berghofer. The SNG is a multidisciplinary
+group who undertake innovative computational modelling and analysis of brain
+activity in health and disease.
+
+QIMR Berghofer is a world-leading translational medical research institute.
+Based in Brisbane, Australia and working in close collaboration with
+clinicians and other research institutes, QIMR Berghofer is home to more than
+600 scientists, students and support staff.
+
+*Salary*
+
+Salary range is AUD $81,395-$84,257 per annum, plus up to 15.75% superannuation,
+and attractive salary packaging. This is a full time three year appointment.
+
+Closing date is  15 October 2017
+Apply here: http://www.qimrberghofer.edu.au/careers/positions-vacant

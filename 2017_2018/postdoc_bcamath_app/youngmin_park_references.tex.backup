@@ -1,0 +1,34 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% extra packages
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+
+%\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{List of References}
+
+\Large Youngmin Park
+\end{center}
+
+\begin{tabular}{ |l|p{5cm}|l|l|l|  }
+ \hline
+ Name			&	Affiliation	& Relation	&	Email\\
+ \hline
+ Peter J. Thomas	&	Case Western Reserve University, Department of Mathematics &	MS/BS Advisor	& pjthomas@case.edu \\
+ Hillel J. Chiel	&	Case Western Reserve University, Department of Biology & MS Advisor   &hjc@case.edu\\
+ Albania &AL & ALB&  008\\
+ Algeria    &DZ & DZA&  012\\
+ American Samoa&   AS  & ASM&016\\
+ Andorra& AD  & AND   &020\\
+ Angola& AO  & AGO&024\\
+ \hline
+\end{tabular}
+
+\end{document}
