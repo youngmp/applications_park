@@ -1,7 +1,7 @@
 # applications_park
 All postdoc and faculty applications in mathematical biology (applied dynamical systems and modeling), Fall 2017-- Spring 2022
 
-I have not checked that everything will compile and I will not provide missing files. Some PDFs have corresponding tex files, some do not. However, most files are human-readable plain text, or PDFs, so take what you need. The organization differs significantly from year-to-year.
+Everything here is as-is. I have not checked that everything will compile. Some PDFs have corresponding tex files, some do not. However, all files are human-readable plain text or PDFs, so take what you need. The organization differs significantly from year-to-year.
 
 The vast majority of applications were submitted through mathjobs.org.
 
