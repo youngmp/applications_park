@@ -1,0 +1,176 @@
+\documentclass[a4paper,14pt]{article}
+
+  
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\y}{\mathbf{y}}
+\newcommand{\q}{\boldsymbol{\theta}}
+\newcommand{\io}{\int_\Omega}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\pa}{\partial}
+
+\begin{document}
+
+\begin{enumerate}
+ \item title. thank you all for coming let's get started.
+ %\item overview slide.
+ \item bio intro. Hippocampal neurons can produce reliable, long-lasting transient firing patterns without external stimuli. For example, in an experiment by Pastalkova et al, a rat reaches a T maze and has to go the opposite direction it went the last time it was at the T intersection, so the short term task is remembering the left or right direction. When the rat is remembering where it went last, some hippocampal neurons fire in a spatially coherent pattern. Imagining the hippocampus as a sheet and the z axis as neural activity, this coherent pattern appears as a traveling bump of activity. Ordering neurons by the latency to peak firing rate results in this plot.
+ 
+ \item Such dynamics can be modeled using this neural field model, first studied by Pinto and Ermentrout in 2001. For the first half of the overview, we will classify the dynamics of bump solutions of the system.
+ 
+ For the moment, suppose epsilon is zero. The variable $u$ represents the neural activity of the network on the domain $\Omega$, which is either the unit circle or the torus.  The values of $u$ can be positive (which represents excitatory neural activity), or negative (which represents inhibitory neural activity).
+ 
+ The function $K$ is an even function in the shape of a mexican hat (draw). So for a given neuron, it receives local excitation, lateral inhibition, and no effect farther out. This is generally what these Mexican hats look like.
+ 
+ The function $f$ is sigmoidal such that with excitatory neural activity, $f$ approaches 1, and with inhibitory neural activity, $f$ approaches 0.
+ 
+ The neural activity at position $y$ contributes to the dynamics of $U$ at position $x$ weighted by the kernel $k$.
+ 
+ As long as we choose the kernel appropriately, this equation produces a bump solution.
+ 
+ \item Existence and uniqueness are generally known for these types of models. In this video, we demonstrate the existence and stability of a bump solution on the 1D domain. With random initial conditions, the solution quickly reaches the steady-state solution.
+ 
+\item Now let's take epsilon to be nonzero and small. The behavior becomes more interesting because the dynamics of $u$ are now influenced by $z$ and $I$. The variable $z$ represents an adaptation variable. The function $I$ represents a time-invariant input current. Generally, we make no assumptions on the form of $I$ aside from evenness. For the numerics in this talk we take it to be the steady-state bump solution, but there is no reason we had to do that. It just makes the numerics a little easier.
+ 
+ There are two parameters of this system, $g$ and $q$. $q$ controls the strength of the input current, and $g$ controls the strength of the adapatation. Note that both these terms are order epsilon, so input current and adaptation have a weak influence on the dynamics of $u$. Moreover, an epsilon appears in the dynamics of the adaptation variable, so adaptation is also slow.
+ 
+ This choice of weak and slow adaptation and weak input current result in interesting dynamics, and makes this system much more tractable.
+ \item Here are some example solutions of the neural field model on the 1D domain. The full solution $u$ is shown on the left with the centroid marked by a red dot that is shown as a dot on the unit circle on the right. Generally we choose $\ve = 0.01$, or half that value.
+ \item movie 2d
+ \item 
+ \begin{enumerate}
+ \item analysis of the full neural field model is limited to and by the numerics.
+ \item the nueral field model on the two-dimensional domain is especially difficult to analyze. what we just saw are numerical solutions of the neural field model which are relatively easy to get. the problem is that we would like to talk about existence and stability of solutions and it's not so easy to do using the original neural field equations.
+ \item however, all solutions of our neural field model have a well-defined centroid. we are not looking at general pattern formation, spirals, or pulse generators.
+ \item this property suggests a way to reduce the full nonlocal partial integro-differential equations to a more tractable system.
+ \end{enumerate}
+  
+ \item Using the method of multiple timescales, we derive the dynamics of the centroid as fuctional integro-differential equations. $J_i$ acounts for the effects of the input current in terms of derivative of the sigmoidal function $f$ and the partial derivatives of the steady-state bump solution $u_0$, and $H_i$ accounts for the effcts from the adaptation term in terms of the same derivatives. The time integral is from our re-representation of z earlier.
+ 
+ Even though this system is still infinite-dimensional, it turns out that it is analytically and numerically substantially more tractable than the original neural field model.
+ 
+ \item
+ 
+ \begin{itemize}
+  \item We would like to compare the solutions of the phase model to the solutions of the original neural field model by generating and comparing the bifurcation diagrams. So recall the neural field model, but this time on a 1D domain.
+  \item  So long as we choose the kernel to be $A+B\cos(x)$, we can write the solution as a finite Fourier series.
+  \item  If we plug this Fourier series into the neural field model and group like terms, we end up with a system of six ODEs, which we can use AUTO to analyze.
+ \end{itemize}
+ 
+ Another disadvantage of the 6 dimensional ODE is that we need to numerically evaluate multiple integrals at each time step. This introduces an approximation error as well as slowing down the computation time. In the phase equation, there is only one time integral and therefore less computationally expensive. On the 2D domain, the problem is much worse for the neural field model, but the 2D phase model is better. We'll get to that in a bit.
+
+ \item Here is the two parameter bifurcation diagram, and an example solution in the stationary bump parameter regime. For a given slice in time, white denotes excitatory neural activity and black denotes inhibitory neural activity.The centroid of the bump solution (position 0 on the x-axis) remains fixed as a function of time (down the plot). 
+
+ \item Over the Hopf bifurcation, which is this orange dashed line, we get a wobbling bump solution. The shape of the solution is virtually the same for all time (up to order epsilon), but the solution translates over the domain in a periodic fashion.
+ 
+ \item For zero $q$ and nonzero $g$, we have a constant velocity traveling bump solution.
+ 
+ \item There exists another type of solution in the wobbling bump regime, which we call sloshers, because the amplitude of oscillations are much larger than the wobbling solutions. In fact, there is a parameter range of bistability of the sloshing bump and the wobbling bump, but we were unable to detect the boundaries using the full neural field model. This projector resolution is a bit low so it may look discontinuous, but actually everything is smooth. The thinness of the lines correspond to fast velocities.
+ 
+ \item Finally, for small $q$ and nonzero $g$ we have nonconstant velocity traveling solutions. The thick lines show that the bump solution slows down in this region.
+ 
+ \item Let's go back to the phase model and see how it fares. Here is the phase model on a 1D domain. Before we can generate the diagrams, we also need to convert this differential equation in a system of ODEs. Like before, we choose $K(x) = A + B\cos(x)$. Then the interaction function $H$ simplifies to $\sin(x)$. This allows us to separate $H$ in the below equation into two integral terms $S(\tau)$ and $C(\tau)$, which satisfy their own ODEs,
+ 
+ \item as shown on this slide. We now look at the bifurcations and example solutions of this system.
+ 
+ \item here is the two paramter bifurcation diagram of the equivalent phase model we just derived. and here is an example solution of a stationary bump. recall that the phase equation tracks the centroid of the bump solution, so if the bump is stationary, we expect the centroid to remain centered at the origin (x axis) for all time (y axis, downward) and that is exactly what we see. For the remainder of the slides, dashed light blue represents the solution taken from the phase model.
+ 
+ \item as before, we are able to reproduce the wobbling centroid behavior, but note that we have a better idea of where the wobbling bump behavior ends -- along the teal lin labeled BP (point to slide).
+ 
+ \item For $q=0$ and $g$ nonzero, we get the constant velocity traveling bump solutions like before
+ 
+ \item And we are able to get the sloshing solutions.
+ 
+ \item And finally, as before we are also able to produce the nonconstant velocity movement of the centroid. So this is great, we are able to reproduce all the qualitative behaviors of the original neural field model using this reduced system to greater detail. But here's another example of the utility of the phase model. If I plot the solution of the full neural field model underneath the theoretical solutions,
+ 
+ \item we get near-perfect agreement. In fact I've marked the centroid of the numerical solution using a black line and it's hard to see the black line underneath the blue line. So the theory works amazingly well to describe the movement of the centroid in on the 1D domain.
+ 
+ 
+ 
+ The numerical results aren't the only benefit of the phase model. We can also derive a substantial amount of analytical results.
+ 
+ \item For example, it is straightforward to prove existence of a Hopf bifurcation. If we perturb off the steady-state centroid, we can solve for $\lambda$ and determine conditions for a Hopf bifurcation.
+ 
+ I won't show the details here, but we can also do a normal form analysis to determine the criticality of the Hopf bifurcation as well as the oscillation amplitude. I'm not sure if such an analysis is possible in the original neural field model using a smooth firing rate function.
+ 
+ \item Existence of traveling bump solutions is also pretty easy. Let $q=0$ and $g>0$, which is a necessary condition for constant velocity traveling waves. Let $\theta(\tau) = \nu \tau$. $\nu$ is a constant that represents the velocity of the centroid. If we assume that $K(x) = A + B\cos(x)$ and so $H(x) = \sin(x)$, and plug this guess into the phase euqation, and we immediately get an equation relating the adaptation strength to the velocity of the traveling bump solution. As long as $g>1$ we have a constant velocity traveling bump!
+ 
+ I won't show the results here, but stability is almost as simple. These are just some existence examples on the 1D domain.
+ 
+ \item Let's repeat the comparison in the 2D domain. before generating the bifurcation diagram of the neural field model on the two-dimensional domain, we need to transform it into a system of ODEs. To do so, we take a Fourier truncation of the kernel, which allows us to rewrite the neural field equation as a system of 18 ODEs.
+ 
+ although the numerics are more tractable and compable with AUTO, we are unable to generate a two parameter bifurcation diagram. This problem is due to the same as those in the 1D case. We transformed the neural field model into a system of ODEs, but this time we need to evaluate double integrals at each time step. To get meaningful results the double integrals need a fine discretization.
+
+\item So let's skip to the phase equations to see if we can better study the parameter space.
+
+To generate bifurcation diagrams, we use the simplest nontrivial Fourier truncation of $H_i$,
+
+The superscript $F$ here is there to remind us that we are using the Fourier truncation of $H_i$.
+
+As in the 1D case, the simplified form of $H_i$ allows us to separate it under the integral and get a bunch of integral terms that each satisfy its own ODE. Now we can use AUTO.
+
+\item Here's the two parameter bifurcation diagram of the phase model on two dimensions. To the left of the orange Hopf line we have a stationary bump in phase space ($\theta_1$ vs $\theta_2$).
+
+\item across the hopf line, the parameters produce a wobbling solution , which we can show which arises from a Hopf bifurcation.
+
+\item when there is no input current ($q=0$), we have constant velocity traveling solutions
+
+\item and finally we get chaotic solutions in this region. So the phase model does a pretty good job of reproducing the solutions of the neural field model! we can also follow many more fixed points and classify some other dynamics
+
+\item as shown here, but I won't go into detail. I just want to point out that we not only can produce a 2 parameter bifurcation diagram using the phase model, but we are able to follow many more fixed points, which gives us a better understanding of the phase space.
+
+So the phase model has again proven to be advantageous. But it doesn't stop there. We can also derive some analytical results.
+
+\item It's very straightforward to show the existence of constant velocity traveling bump solutions using the phase equation. Let $q=0$, and consider the constant velocity ansatz... If we plug the ansatz into the phase questions, we get a system of two integral equations. Generally, you would need to solve this using a computer, but the results are much easier to get than using the original neural field model.
+
+Solving this system with a computer, we get the following bifurcation diagram.
+
+\item Left are the branches of the two velocities as a function of $g$, and the right is a projection of these branches. I have not shown stability here, but we can compute stability of some of these branches using the phase equation.
+
+\item part 1 summary. So that is the first part of my thesis. questions?
+
+%\item everything we have seen in this talk was about the mathematical analysis of a neural field model. in more applied research, neural field models have been successful at reproducing and matching real physiological data. however, the direct connection between general spiking models and neural field models remains unclear.
+
+\item now for the stuff that I have not yet done that will become the last part of my thesis. read slide
+
+\item The full system we would like to study is messy notation-wise, so we will introduce ideas using this simpler example. consider this system of reciprocally coupled oscillators with slow synapses. The vector fields are homogeneous to ensure that if there exist limit cycle solutions to each system with the same frequency.
+
+\item 
+\begin{itemize}
+ \item in the case that $\ve$ is zero, each $s_i$ is constant and the system is effectively uncoupled.
+ \item In this case, suppose that for a range of $s$ values, the system has a stable limit cycle $\x_0(t;s)$.
+ \item Assume further that there may be no limit cycle when $s=0$. In other words, no synaptic activity could stop repetitive spiking.
+\end{itemize}
+
+
+\item 
+\begin{itemize}
+ \item Now let's make $\ve$ nonzero and small. The dynamics of $s_i$ become...
+ \item By the theory of averaging, we can write the mean activity of $s$ as
+ \item Assuming this ODE has a stable fixed point, we may write $s_j$ as its mean value with some order $\ve$ perturbations from the mean.
+\end{itemize}
+
+\item using this form of the synaptic variables, we now have a weakly coupled system of oscillators and we can use standard phase reduction techniques to derive phase equations.
+
+To summarize, we are taking the mean field description to find fixed points in the synaptic variables, then deriving phase equations at the spiking level.
+
+These are the underlying ideas we would like to apply to the more general case...
+
+\item here. From a macroscopic standpoint, we have an all-to-all coupled network of oscillators. one population (x) is excitatory, and the other population (y) is inhibitory. Draw diagram.
+
+In contrast to our simpler example, the vector fields are heterogeneous, and the synapses have different weights, but the key assumption of slow synapses holds. If we can show a stable fixed point exists in the mean field description of this system, we can use the same ideas to write the system as a weakly coupled network of oscillators and derive the phase equations.
+
+\item I would like to point out that we are interested in both the macroscopic and microscopic structure of the network. In particuar, this is the type of synaptic connections we have for this network. For example, for this neuron $x_1$ in the excitatory population, the excitatory neurons summate and contribute an excitatory effect to $x_1$, and the inhibitory neurons summate and contribute some inhibitory effect to $x_1$. This type of structure holds for each neuron in the network.
+
+Explain the $w_{ij}^{**}$.
+
+\item The weights also take a particular form. As an example, if you have 7 neurons, the incoming synaptic weights from neurons in the excitatory population sample from this positive gaussian, while the incoming synaptic weights from neurons in the inhibitory population sample from this negative gaussian. The idea here is to mimick the lateral inhibition structure of the mexican hat kernel.
+
+\item read slide
+
+\item read slide
+
+\end{enumerate}
+
+
+
+\end{document}
