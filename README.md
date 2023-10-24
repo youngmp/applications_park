@@ -7,9 +7,9 @@ The vast majority of applications were submitted through mathjobs.org.
 
 Timeline:
 * Fall 2017--Spring 2018: Postdoc only
-* Fall 2018--Spring 2019: Postdoc, teaching, and TT jobs
+* Fall 2018--Spring 2019: Postdoc, teaching, and TT jobs ([detailed spreadsheet](https://docs.google.com/spreadsheets/d/1sZDx5RBKGz5OCMih_9A0wyGd_F32A5ila2AXQ96gMcU/edit?usp=sharing))
 * Fall 2019--Spring 2020: Did not apply
-* Fall 2020--Spring 2021: Postdoc and TT jobs
+* Fall 2020--Spring 2021: Postdoc and TT jobs ([detailed spreadhsheet](https://docs.google.com/spreadsheets/d/1QNZFjsnWqRAL6xopFXkYE8MWX0NvuSqstnIan_Q1pbk/edit?usp=sharing))
 * Fall 2021--Spring 2022: TT jobs only
 
 <img src="https://i.imgur.com/k3njMzg.png" width="50%">
