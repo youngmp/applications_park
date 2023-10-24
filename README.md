@@ -10,7 +10,7 @@ Timeline:
 * Fall 2018--Spring 2019: Postdoc, teaching, and TT jobs ([detailed spreadsheet](https://docs.google.com/spreadsheets/d/1sZDx5RBKGz5OCMih_9A0wyGd_F32A5ila2AXQ96gMcU/edit?usp=sharing))
 * Fall 2019--Spring 2020: Did not apply
 * Fall 2020--Spring 2021: Postdoc and TT jobs ([detailed spreadhsheet](https://docs.google.com/spreadsheets/d/1QNZFjsnWqRAL6xopFXkYE8MWX0NvuSqstnIan_Q1pbk/edit?usp=sharing))
-* Fall 2021--Spring 2022: TT jobs only
+* Fall 2021--Spring 2022: TT jobs only ([detailed spreadsheet](https://docs.google.com/spreadsheets/d/13aO5EO-vUQBt5DImo-e97b9eerV-So4vKRN7fYEC-lQ/edit?usp=sharing))
 
 <img src="https://i.imgur.com/k3njMzg.png" width="50%">
 
