@@ -17,7 +17,6 @@ Strikethrough = Withdrawn, canceled
 
 UF wanted an answer by 02/10, but other schools had already extended offers. if they told me deadlines, they were after 02/10. others were unlikely as i was 3rd in line
 
-
 | Applied | Due   | School (Country)         | Links                                                                                                                                                                                                                                                                             | EDI  | Ext. | CL   | RS   | TS   | Email | FC   | Notes                                                              |
 | ------- | ----- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---- | ---- | ---- | ---- | ----- | ---- | ------------------------------------------------------------------ |
 | 10/02   | NA    | CUNY-Lehman              | [mathjobs](https://www.mathjobs.org/jobs/list/18252) | [external](https://cuny.jobs/bronx-ny/assistant-professor-mathematics/2C71683D61B2499EAC85F979F0A605C2/job/)                                                                                                               | TRUE | TRUE | TRUE | TRUE | TRUE |       |      | 01/27                                                              |
