@@ -5,6 +5,7 @@ in cover_letters:
 * CL_pdoc\* are for postdoc applications.
 
 http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki
+
 http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki_(Teaching)
 EDI = Checked EDI
 Ext = Checked or applied external, sent letter requests
