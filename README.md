@@ -12,10 +12,10 @@ Timeline (click the data links to see more details about applications and callba
 * Fall 2020--Spring 2021: Postdoc and TT jobs. [Postdoc + TT data](https://docs.google.com/spreadsheets/d/1QNZFjsnWqRAL6xopFXkYE8MWX0NvuSqstnIan_Q1pbk/edit?usp=sharing)
 * Fall 2021--Spring 2022: TT jobs only. [TT data](https://docs.google.com/spreadsheets/d/13aO5EO-vUQBt5DImo-e97b9eerV-So4vKRN7fYEC-lQ/edit?usp=sharing)
 
-<img src="https://i.imgur.com/k3njMzg.png" width="50%">
+<img src="https://i.imgur.com/k3njMzg.png" width="70%">
 
-<img src="https://i.imgur.com/lzlrlvI.png"  width="50%">
+<img src="https://i.imgur.com/lzlrlvI.png"  width="70%">
 
-<img src="https://i.imgur.com/cTAetcX.png"  width="50%">
+<img src="https://i.imgur.com/cTAetcX.png"  width="70%">
 
 338 total applications included in this repository (162 postdoc, 176 faculty)
