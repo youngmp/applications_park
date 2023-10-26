@@ -5,12 +5,12 @@ Everything here is as-is, and not all TeX files have been verified to compile. S
 
 The vast majority of applications were submitted through mathjobs.org.
 
-Timeline:
+Timeline (click the data links to see more details about applications and callbacks):
 * Fall 2017--Spring 2018: Postdoc only
-* Fall 2018--Spring 2019: Postdoc, teaching, and TT jobs. [Postdoc data](https://docs.google.com/spreadsheets/d/1zBtQXkd6NE0SXssUmOFg7uNBW9h4e13z52SG2MlQlPU/edit?usp=sharing). [TT data](https://docs.google.com/spreadsheets/d/1sZDx5RBKGz5OCMih_9A0wyGd_F32A5ila2AXQ96gMcU/edit?usp=sharing))
+* Fall 2018--Spring 2019: Postdoc, teaching, and TT jobs. [Postdoc data](https://docs.google.com/spreadsheets/d/1zBtQXkd6NE0SXssUmOFg7uNBW9h4e13z52SG2MlQlPU/edit?usp=sharing). [TT data](https://docs.google.com/spreadsheets/d/1sZDx5RBKGz5OCMih_9A0wyGd_F32A5ila2AXQ96gMcU/edit?usp=sharing)
 * Fall 2019--Spring 2020: Did not apply
-* Fall 2020--Spring 2021: Postdoc and TT jobs. ([Postdoc + TT data](https://docs.google.com/spreadsheets/d/1QNZFjsnWqRAL6xopFXkYE8MWX0NvuSqstnIan_Q1pbk/edit?usp=sharing))
-* Fall 2021--Spring 2022: TT jobs only. ([TT data](https://docs.google.com/spreadsheets/d/13aO5EO-vUQBt5DImo-e97b9eerV-So4vKRN7fYEC-lQ/edit?usp=sharing))
+* Fall 2020--Spring 2021: Postdoc and TT jobs. [Postdoc + TT data](https://docs.google.com/spreadsheets/d/1QNZFjsnWqRAL6xopFXkYE8MWX0NvuSqstnIan_Q1pbk/edit?usp=sharing)
+* Fall 2021--Spring 2022: TT jobs only. [TT data](https://docs.google.com/spreadsheets/d/13aO5EO-vUQBt5DImo-e97b9eerV-So4vKRN7fYEC-lQ/edit?usp=sharing)
 
 <img src="https://i.imgur.com/k3njMzg.png" width="50%">
 
