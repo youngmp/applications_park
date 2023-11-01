@@ -1,13 +1,24 @@
-This directory will be updated occasionally. Please see the diffs to check for updates.
+This document will be updated occasionally. Please see the diffs to check for updates.
+
+If nothing else, Read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). **It is well worth your time to read**.
+
+This document is meant to give you one more data point to help inform your decisions. Nothing I say is sacred or absolutely true.
 
 Assumptions:
 * You have a PhD in mathematics or applied mathematics, or close to graduating and starting to think about postdocs
-* You are interested in staying in academia (no industry or lab positions)
-* You are looking to apply to postdocs in math and/or science
+* You want to stay in academia (no industry or national lab positions)
+* You want a postdoc or faculty position in math or applied math
+* You have a background in pure math and want a postdoc/faculty position in applied math or science (i.e., want to change careers)
 
 Biases:
 * I am not a pure mathematician.
 * I am a (very) applied mathematician in math bio
+
+# Ideal conditions before applying
+
+Note that these are only **ideal** conditions. They are neither necessary nor sufficient to obtain a postdoc or faculty position due to significant stochasticity in the hiring process. If you are "less strong" in one of these categories, it may help your application to improve it, but do not despair.
+* **Networking** is a significant part of all of this. If you go to conferences and speak to many people, then great! If you are like me and are very shy and didn't really network very well throughout your PhD, then now is a good a time as any. In the next conference, reach out to professors, old colleagues/friends, and show interest in them and their work. It also doesn't hurt to introduce yourself to various people at every level. It is hard, it is exhausting, but it is important.
+* 
 
 # Application process
 
@@ -15,7 +26,7 @@ Applied and pure co-exist on a fine gradient, but I will artificially separate t
 
 ## Pure math
 
-Please see the presentation written by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). It is well worth your time to read.
+Read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). It is well worth your time to read.
 
 ## Applied math
 
