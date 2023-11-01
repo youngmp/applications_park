@@ -1,14 +1,44 @@
-# General Information
+This directory will be updated occasionally. Please see the diffs to check for updates.
 
-Applied and pure exist on a gradient, but I will artificially separate them for the sake of organization.
+Assumptions:
+* You have a PhD in mathematics or applied mathematics.
+* You are interested in staying in academia (no industry or lab positions)
+* You are looking to apply to postdocs in math and/or science
 
-## Application process for pure math
+Biases:
+* I am not a pure mathematician.
+* I am a (very) applied mathematician in math bio
 
-Please see the presentation written by Chris Kapulkin (at Wester University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). It is well worth your time to read.
+# Application process
 
-## Application process for applied math
+Applied and pure co-exist on a fine gradient, but I will artificially separate them for the sake of organization. I've tried to make this document skimmable, so if you are more from the pure end, then it may still help to skim the topics below.
 
-All of the above applies, but applied mathematicians can also apply to individuals with grant funding.
+## Pure math
+
+Please see the presentation written by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). It is well worth your time to read.
+
+## Applied math
+
+All of the above applies, but applied mathematicians can also apply to individuals with grant funding. This is slowly becoming more true of pure mathematicians too, but for now I will restrict my focus to the very applied end of the spectrum. Much of the advice will be spoken in terms of someone in math bio, but the concepts should hold in other fields.
+
+### Finding job openings
+
+Outside of mathjobs.org, there are a few options:
+* Look up people that you are interested in working with. People often post their "wanted" ads on their websites.
+* Subscribe to listservs because they often post job openings from PhD through faculty positions.
+  * Computational neuroscience listserv: https://lists.cnsorg.org/postorius/lists/comp-neuro.lists.cnsorg.org
+  * SIAM Life Sciences activity group mailing list https://lists.siam.org/mailman/listinfo/siam-ls (Google for other SIAM activity groups)
+  * SIAM Dynamical Systems activity group mailing list https://lists.siam.org/mailman/listinfo/siam-dy
+
+Last resort methods:
+* Search other job outlets, e.g., https://www.higheredjobs.com/
+* Email professors directly, whether you know them or not. Include a brief explanation of who you are, why you are contacting them, and include a CV. Be specific, or else it's epecially easy to ignore the email
+* Search the job pages at universities, colleges, community colleges
+
+
+## Information for interviews
+
+* The Professor is In is a great blog that helped prepare me for my final application cycle theprofessorisin.com
 
 # FAQ
 
@@ -17,7 +47,7 @@ More information will be added as people ask questions.
 > How come you applied to so many places for postdocs? It is my understanding even top universities have trouble hiring postdocs. And you seem to have a great track record with lots of low-author-count papers and even an award during your PhD. Couldn't your advisors help you find something? Or were you looking for something else?
 In short, traditional math postdocs in the US are very difficult to get and in some cases might be almost as competitive as faculty positions. Math postdocs are hired by math departments (as opposed to individuals with funding), so the postdoc must be extremely good at what they do and also show strong potential to co-author with many others in the department. They must also be reasonably good teachers and be able to carry a high teaching load (anywhere from 1-1 to 4-4, but 2-2 is common), because their primary source of funding is through teaching. These conditions alone seriously restrict potential hires, even though one department advertising one position will receive 200 applicants (give or take 100).
 
-So I've been shortlisted once or twice, but never really got a proper department postdoc. The few times I was shortlisted was because the department happened to have a distinct group in applied math that had much more control over postdoc hiring decisions. Lots of this is can be independent of who your advisor knows, since math postdocs have to appeal to everyone in the department and not just one person. EDIT 2: If your advisor is in pure math, they can certainly have more sway than mine, who is/was squarely in applied math.
+So I've been shortlisted once or twice, but never really got a proper department postdoc. The few times I was shortlisted was because the department happened to have a distinct group in applied math that had much more control over postdoc hiring decisions. Lots of this is can be independent of who your advisor knows, since math postdocs have to appeal to everyone in the department and not just one person. If your advisor is in pure math, they can certainly have more sway than mine, who is squarely in applied math.
 
 The only postdocs I've gotten were funded by grants, and this was only possible because I'm in applied math, which sits in an awkward (but good) position between pure math and the sciences. On the one hand, applied math people don't get as much funding as scientists with labs, but on the other hand, we tend to get more funding than pure math people and thus tend to have more postdocs.
 
