@@ -1,7 +1,7 @@
 This directory will be updated occasionally. Please see the diffs to check for updates.
 
 Assumptions:
-* You have a PhD in mathematics or applied mathematics.
+* You have a PhD in mathematics or applied mathematics, or close to graduating and starting to think about postdocs
 * You are interested in staying in academia (no industry or lab positions)
 * You are looking to apply to postdocs in math and/or science
 
