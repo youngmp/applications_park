@@ -42,8 +42,6 @@ Last resort methods:
 
 # FAQ
 
-More information will be added as people ask questions.
-
 > How come you applied to so many places for postdocs? It is my understanding even top universities have trouble hiring postdocs. And you seem to have a great track record with lots of low-author-count papers and even an award during your PhD. Couldn't your advisors help you find something? Or were you looking for something else?
 In short, traditional math postdocs in the US are very difficult to get and in some cases might be almost as competitive as faculty positions. Math postdocs are hired by math departments (as opposed to individuals with funding), so the postdoc must be extremely good at what they do and also show strong potential to co-author with many others in the department. They must also be reasonably good teachers and be able to carry a high teaching load (anywhere from 1-1 to 4-4, but 2-2 is common), because their primary source of funding is through teaching. These conditions alone seriously restrict potential hires, even though one department advertising one position will receive 200 applicants (give or take 100).
 
