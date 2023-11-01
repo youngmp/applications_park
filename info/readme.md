@@ -4,7 +4,7 @@ Applied and pure exist on a gradient, but I will artificially separate them for 
 
 ## Application process for pure math
 
-Please see [Applying for academic jobs in North America for graduate students](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf) written by Chris Kapulkin
+Please see the presentation written by Chris Kapulkin (at Wester University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). It is well worth your time to read.
 
 ## Application process for applied math
 
@@ -20,8 +20,6 @@ In short, traditional math postdocs in the US are very difficult to get and in s
 So I've been shortlisted once or twice, but never really got a proper department postdoc. The few times I was shortlisted was because the department happened to have a distinct group in applied math that had much more control over postdoc hiring decisions. Lots of this is can be independent of who your advisor knows, since math postdocs have to appeal to everyone in the department and not just one person. EDIT 2: If your advisor is in pure math, they can certainly have more sway than mine, who is/was squarely in applied math.
 
 The only postdocs I've gotten were funded by grants, and this was only possible because I'm in applied math, which sits in an awkward (but good) position between pure math and the sciences. On the one hand, applied math people don't get as much funding as scientists with labs, but on the other hand, we tend to get more funding than pure math people and thus tend to have more postdocs.
-
-Hope that helps, and please let me know if you have more questions!
 
 FYI, from conversations with pure math people, 50/year is a minimum number for postdoc applications and applying to 100-200/year is normal. The highest I heard is 400 in one year.
 
