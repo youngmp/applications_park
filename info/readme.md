@@ -62,8 +62,8 @@ As mentioned above, this section has some information about transitioning form p
 ## Applied math to science
 
 * **Math and science are very different in practice**
- * The sciences generally require far more grants (undergrads, graduate students, postdocs, faculty all live and die by grants).
- * Math tends to require more teaching (anywhere from 1-1 to 5-5).
+  * The sciences generally require far more grants (undergrads, graduate students, postdocs, faculty all live and die by grants).
+  * Math tends to require more teaching (anywhere from 1-1 to 5-5).
 * Ask people in the field you want to work in what their day-to-day life is like.
 * More to come...
 
