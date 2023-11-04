@@ -1,9 +1,7 @@
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10045180.svg)](https://doi.org/10.5281/zenodo.10045180) (Current DOI does not include the info directory)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10045180.svg)](https://doi.org/10.5281/zenodo.10045180) (Current DOI does not include the info directory)
 
 * All postdoc and faculty applications in math and applied math, Fall 2017--Spring 2022. 338 total applications included in this repository (162 postdoc, 176 faculty)
-
 * See the **info** directory for more detailed information about the application process and timelines.
-
 * The vast majority of applications were submitted through mathjobs.org.
 
 Timeline + spreadsheets with details about applications and callbacks:
