@@ -1,4 +1,5 @@
-# applications_park
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10045180.svg)](https://doi.org/10.5281/zenodo.10045180) (Current DOI does not include the info directory)
+
 All postdoc and faculty applications in mathematical biology (applied dynamical systems and modeling), Fall 2017-- Spring 2022
 
 Please see the info directory for more detailed information about the application process and timelines.
