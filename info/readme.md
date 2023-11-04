@@ -6,13 +6,13 @@ This document is meant to give you one more data point to help inform your decis
 
 Assumptions:
 * You have a PhD in mathematics or applied mathematics, or close to graduating and starting to think about postdocs.
-* You want to stay in academia (no industry or national lab positions) and want a postdoc or faculty position in math or applied math.
+* You eventually want an academic faculty position in a math or applied math department (no industry or national lab positions).
 * You have a background in pure math and want a postdoc/faculty position in applied math or science (i.e., want to change careers).
 
 Biases:
 * I am not a pure mathematician.
-* I am a (very) applied mathematician in math bio
-* My applications largely assume R1 positions.
+* I am a (very) applied mathematician in math bio.
+* My applications and CV are primarily tailored for R1 positions.
 
 # Ideal conditions before applying
 
@@ -53,7 +53,7 @@ Last resort methods:
 * The Professor is In is a great blog that helped prepare me for my final application cycle theprofessorisin.com
 
 # Career changes
-As mentioned above, this section has some information about transitioning form pure math to applied, or from applied math to science. Please remember that these guidelines from the perspective of one person.
+As mentioned above, this section has some information about transitioning form pure math to applied, or from applied math to science. Please remember that these are only guidelines from the perspective of one person.
 
 ## Pure math to applied
 
