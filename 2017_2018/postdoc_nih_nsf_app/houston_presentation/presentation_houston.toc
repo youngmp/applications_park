@@ -1,7 +1,0 @@
-\beamer@endinputifotherversion {3.24pt}
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Phase Models}{13}{0}{1}
-\beamer@subsectionintoc {1}{2}{Derivation of the Phase Equations}{13}{0}{1}
-\beamer@subsectionintoc {1}{3}{Results on the One-dimensional Domain}{19}{0}{1}
-\beamer@subsectionintoc {1}{4}{Results on the Two-dimensional Domain}{38}{0}{1}
-\beamer@sectionintoc {2}{Conclusion}{50}{0}{2}
