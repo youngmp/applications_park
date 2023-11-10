@@ -1,28 +1,30 @@
-This document will be updated occasionally. Please see the diffs to check for updates.
+This document will be updated occasionally and will be under construction for a long time. Please see the diffs to check for updates.
 
-If nothing else, Read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). **It is well worth your time to read**.
+If nothing else, read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). **It is well worth your time to read**.
 
 This document is meant to give you one more data point to help inform your decisions. Nothing I say is sacred or absolutely true.
 
 Assumptions:
-* You have a PhD in mathematics or applied mathematics, or close to graduating and starting to think about postdocs
-* You want to stay in academia (no industry or national lab positions)
-* You want a postdoc or faculty position in math or applied math
-* You have a background in pure math and want a postdoc/faculty position in applied math or science (i.e., want to change careers)
+* You have a PhD in mathematics or applied mathematics, or close to graduating and starting to think about postdocs.
+* You eventually want an academic faculty position in a math or applied math department (no industry or national lab positions).
+* You have a background in pure math and want a postdoc/faculty position in applied math or science (i.e., want to change careers).
 
 Biases:
 * I am not a pure mathematician.
-* I am a (very) applied mathematician in math bio
+* I am a (very) applied mathematician in math bio.
+* My applications and CV are primarily tailored for R1 positions.
 
 # Ideal conditions before applying
 
 Note that these are only **ideal** conditions. They are neither necessary nor sufficient to obtain a postdoc or faculty position due to significant stochasticity in the hiring process. If you are "less strong" in one of these categories, it may help your application to improve it, but do not despair.
 * **Networking** is a significant part of all of this. If you go to conferences and speak to many people, then great! If you are like me and are very shy and didn't really network very well throughout your PhD, then now is a good a time as any. In the next conference, reach out to professors, old colleagues/friends, and show interest in them and their work. It also doesn't hurt to introduce yourself to various people at every level. It is hard, it is exhausting, but it is important.
-* 
+* Published papers in reputable journals (the number varies, but at least 1 is a good start if you are close to finishing your PhD, then 1 per postdoc).
+* Teaching experience with student evaluations (evaluations should be administered by the university and not from, e.g., RateMyProfessors).
+* Experience presenting posters or talks at conferences.
 
 # Application process
 
-Applied and pure co-exist on a fine gradient, but I will artificially separate them for the sake of organization. I've tried to make this document skimmable, so if you are more from the pure end, then it may still help to skim the topics below.
+Applied and pure co-exist on a fine gradient, but I will artificially separate them for the sake of organization. I've tried to make this document skimmable, so if you are more from the pure end, it may still help to skim the applied math resources below.
 
 ## Pure math
 
@@ -46,10 +48,24 @@ Last resort methods:
 * Email professors directly, whether you know them or not. Include a brief explanation of who you are, why you are contacting them, and include a CV. Be specific, or else it's epecially easy to ignore the email
 * Search the job pages at universities, colleges, community colleges
 
-
-## Information for interviews
+# Information for interviews
 
 * The Professor is In is a great blog that helped prepare me for my final application cycle theprofessorisin.com
+
+# Career changes
+As mentioned above, this section has some information about transitioning form pure math to applied, or from applied math to science. Please remember that these are only guidelines from the perspective of one person.
+
+## Pure math to applied
+
+* TBD...
+
+## Applied math to science
+
+* **Math and science are very different in practice**
+  * The sciences generally require far more grants (undergrads, graduate students, postdocs, faculty all live and die by grants).
+  * Math tends to require more teaching (anywhere from 1-1 to 5-5).
+* Ask people in the field you want to work in what their day-to-day life is like.
+* More to come...
 
 # FAQ
 
