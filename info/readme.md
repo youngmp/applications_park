@@ -2,25 +2,24 @@ This document will be updated occasionally and will be under construction for a 
 
 If nothing else, read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf). **It is well worth your time to read**.
 
-This document is meant to give you one more data point to help inform your decisions. Nothing I say is sacred or absolutely true.
+This document is meant to give you one more data point to help inform your decisions. Nothing here is sacred or absolutely true.
 
 Assumptions:
 * You have a PhD in mathematics or applied mathematics, or close to graduating and starting to think about postdocs.
-* You eventually want an academic faculty position in a math or applied math department (no industry or national lab positions).
+* You eventually want an academic faculty position in a math or applied math department (as opposed to industry or national lab positions).
 * You have a background in pure math and want a postdoc/faculty position in applied math or science (i.e., want to change careers).
 
 Biases:
-* I am not a pure mathematician.
-* I am a (very) applied mathematician in math bio.
-* My applications and CV are primarily tailored for R1 positions.
+* I am not a pure mathematician, I am a (very) applied mathematician in math bio.
+* My applications and CV are primarily tailored for R1 (Doctoral Universities – Very high research activity) positions.
 
 # Ideal conditions before applying
 
-Note that these are only **ideal** conditions. They are neither necessary nor sufficient to obtain a postdoc or faculty position due to significant stochasticity in the hiring process. If you are "less strong" in one of these categories, it may help your application to improve it, but do not despair.
-* **Networking** is a significant part of all of this. If you go to conferences and speak to many people, then great! If you are like me and are very shy and didn't really network very well throughout your PhD, then now is a good a time as any. In the next conference, reach out to professors, old colleagues/friends, and show interest in them and their work. It also doesn't hurt to introduce yourself to various people at every level. It is hard, it is exhausting, but it is important.
-* Published papers in reputable journals (the number varies, but at least 1 is a good start if you are close to finishing your PhD, then 1 per postdoc).
-* Teaching experience with student evaluations (evaluations should be administered by the university and not from, e.g., RateMyProfessors).
-* Experience presenting posters or talks at conferences.
+Note that these are only **ideal** conditions. They are neither necessary nor sufficient to obtain a postdoc or faculty position due to significant stochasticity in the hiring process. If you are less strong in one of these categories, do your best to improve it if you have time, but do not despair otherwise.
+* **Networking**: If you go to conferences and speak to many people, then great! If you are like me and are very shy and didn't really network very well throughout your PhD, then now is a good a time as any. In the next conference, make new friends (network), reach out to professors in your field, reach out to old colleagues/friends, and show interest in them and their work. It also doesn't hurt to introduce yourself to various people at every level. Yes it is difficult and exhausting, but it is important.
+* Publishing: It goes without saying that published papers should be in reputable journals. In my field, impact factor is less important and reputable journals (Chaos, SIAM DS, SIAM Applied Math, Journal of Computational Neuroscience, Journal of Mathematical Biology) tend to have impact factors around 1, which is quite low in other scientific fields. So be sure to ask questions to get a sense of what "reputable" means in your field. As far as number of publications, at least 1 is a good start if you are close to finishing your PhD, then 1 per postdoc. In more computational fields, this number might be much higher, and in more theory-heavy fields, this number might be much lower, so again consult with others in your field to get a good sense of what is appropriate.
+* Teaching: You should have plenty of teaching experience leading recitaitons or lectures for undergraduate classes. Save evaluations from each course (evaluations should be administered by the university and not from, e.g., RateMyProfessors). "Plenty" is also field-dependent, so ask around. In my case, I taught the equivalent of 3 recitations per semester and one lecture every Summer. I taught less as a postdoc, on the order of at most 1 lecture per semester, and was told by a pure mathematician that this is generally not enough if I am competing for TT positions in math departments.
+* Presenting: You should have experience presenting posters or talks at conferences. As a graduate student I gave oral or poster presentations once every one or two years. As a postdoc, I traveled to multiple conferences a year (averaged maybe 2 a year, but I traveled more some years than others). My impression is that these numbers are a decent baseline for applied math.
 
 # Application process
 
