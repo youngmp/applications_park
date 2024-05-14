@@ -78,5 +78,6 @@ The only postdocs I've gotten were funded by grants, and this was only possible 
 FYI, from conversations with pure math people, 50/year is a minimum number for postdoc applications and applying to 100-200/year is normal. The highest I heard is 400 in one year.
 
 > When do they ever find time to work if they're sending >1 applications / day??
+
 Yes, it's about as crazy as you think. On the one hand, applications are done through mathjobs, so all the application materials (including letters) are on one site and it's a little easier to shotgun applications. On the other hand, the interface isn't great and all application materials need to be adjusted often for each institution (especially the EDI and cover letter). So people end up taking weeks to months off to apply.
 
