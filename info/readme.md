@@ -52,18 +52,31 @@ Last resort methods:
 * The Professor is In is a great blog that helped prepare me for my final application cycle theprofessorisin.com
 
 # Career changes
-As mentioned above, this section has some information about transitioning form pure math to applied, or from applied math to science. Please remember that these are only guidelines from the perspective of one person.
+As mentioned above, this section has some information about transitioning form pure math to applied math, or from math/applied math to science. These are only guidelines and observations from the perspective of one person.
 
-## Pure math to applied
+## Pure to Applied Math
 
-* TBD...
+* Learn how to program.
+  * Project Euler is a great way to learn how to program with interesting problems (you can connect with me [here](https://projecteuler.net/progress=yxp30)).
+* The language you choose should roughly suit what you want to do.
+* My repertoire of languages is a bit narrow and outdated, but roughly speaking:
+  * General programming: Python
+  * Statistics: R, Python, MATLAB
+  * Machine learning/AI/data science: Python, MATLAB
+  * Biostatistics/genetics: Perl
+  * Game development/graphics: C++, Lua
+* More to come...
 
-## Applied math to science
+## Math/Applied Math to Science, Engineering, or Medicine
 
 * **Math and science are very different in practice**
-  * The sciences generally require far more grants (undergrads, graduate students, postdocs, faculty all live and die by grants).
-  * Math tends to require more teaching (anywhere from 1-1 to 5-5).
-* Ask people in the field you want to work in what their day-to-day life is like.
+  * The sciences, engineering, and medicine generally require far more grants.
+    * Undergrads, and especially graduate students, postdocs, and faculty live and die by grants.
+    * Positions in scientific disciplines are largely funded by grants, in contrast to math, which funds PhD, postdoc, and faculty positions through teaching.
+    * You will need to significantly improve your writing and grantsmanship in particular. Attend workshops and seek feedback as much as is reasonable and possible.
+* PIs in non-math fields typically have larger groups than in math, again funded by grants.
+* Ask people in the field you want to work in what their day-to-day life is like. Doing this is important to help manage expectations.
+  * Even those who wanted to switch fields from math to science took a long time (5+ years) to reach a point where they are happy.
 * More to come...
 
 # FAQ
