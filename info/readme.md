@@ -35,8 +35,8 @@ Networking $\equiv$ making friends. Chat with people in your department, outside
 
 ## Publishing
 Do your best to publish as much as is appropriate for your field in reputable journals.
-* In my field, impact factor is less important and reputable journals (e.g., Chaos, SIAM DS, SIAM Applied Math, Journal of Computational Neuroscience, Journal of Mathematical Biology) tend to have impact factors around 1, which is quite low in other scientific fields. So be sure to ask questions to get a sense of what "reputable" means in your field.
-* As far as number of publications, at least 1 is a good start if you are close to finishing your PhD, then 1 per postdoc. In more computational fields, this number might be much higher, and in more theory-heavy fields, this number might be much lower, so again consult with others in your field to get a good sense of what is appropriate.
+* Impact factor: In my field, impact factor is less important. Reputable journals (e.g., Chaos, SIAM DS, SIAM Applied Math, Journal of Computational Neuroscience, Journal of Mathematical Biology, Bulletin of Mathematical Biology) tend to have impact factors around 1, which is quite low in other scientific fields. So be sure to ask questions to get a sense of what "reputable" means in your field.
+* Number of publications: At least 1 is a good start if you are close to finishing your PhD, then 1 per postdoc. In more computational fields, this number might be much higher, and in more theory-heavy fields, this number might be much lower, so again consult with others in your field to get a good sense of what is appropriate.
 
 ## Teaching
 Develop significant teaching experience leading recitaitons or lectures.
