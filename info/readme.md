@@ -6,7 +6,7 @@
 
 * This document is meant to give you one more data point to help inform your decisions. Nothing here is sacred or absolutely true. Always consult second opinions.
 
-* There is a hamburger menu at the top right of this element. Click it to view the table of contents.
+* There is a hamburger menu at the top right of this text area. Click it to view the table of contents.
 
 ## Abbreviations
 * TT: Tenure-Track
