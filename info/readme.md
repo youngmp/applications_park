@@ -1,10 +1,12 @@
-This document will be updated occasionally and will be under construction for a long time. Please see the history and diffs to check for updates.
-
-**If nothing else, read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf).** It is well worth your time.
-
-This document is meant to give you one more data point to help inform your decisions. Nothing here is sacred or absolutely true. Always consult second opinions.
-
 # Preamble
+
+* This document will be updated occasionally and will be under construction for a long time. Please see the history and diffs to check for updates.
+
+* **If nothing else, read the presentation by Chris Kapulkin (at Western University) [here](https://www.math.uwo.ca/faculty/kapulkin/notes/academic-jobs-Western-September-2018.pdf).** It is well worth your time.
+
+* This document is meant to give you one more data point to help inform your decisions. Nothing here is sacred or absolutely true. Always consult second opinions.
+
+* There is a hamburger menu at the top right of this element. Click it to view the table of contents.
 
 ## Abbreviations
 * TT: Tenure-Track
