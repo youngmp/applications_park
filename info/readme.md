@@ -76,11 +76,11 @@ Last resort methods:
 * [The Professor is In](theprofessorisin.com) is a great blog that helped prepare me for my final application cycle
 
 # Career Changes
-As mentioned above, this section has some information about transitioning form pure math to applied math, or from math/applied math to science. These are only guidelines and observations from the perspective of one person, so be sure to seek second opinions.
+This section has some information about transitioning form pure math to applied math, or from math/applied math to science. These are only guidelines and observations from the perspective of one person, so be sure to seek second opinions.
 
 ## Pure to Applied Math
 
-* Learn how to program.
+* **Learn how to program**.
   * Project Euler is a great way to learn how to program with interesting problems (you can connect with me [here](https://projecteuler.net/progress=yxp30)).
 * The programming language you choose to learn should suit what you want to do.
 * Roughly speaking:
@@ -90,9 +90,8 @@ As mentioned above, this section has some information about transitioning form p
   * Game development/graphics: C++, Lua
 
 ## Math/Applied Math to Science, Engineering, or Medicine
-Repeat after me: **LEARN TO WRITE, LEARN TO WRITE, LEARN TO WRITE, LEARN TO WRITE, ...**
+Repeat after me: **LEARN TO WRITE, LEARN TO WRITE, LEARN TO WRITE, LEARN TO WRITE, ...** Someone with mathematical training tends to be poorly trained in writing, even if they've published a large number of papers.
 
-Math and science are very different in practice. I cannot stress this enough.
 * The sciences, engineering, and medicine generally require far more grants, and obtaining at least one big grant is usually an expectation for tenure  (e.g., NIH R01 grants, which average 600,000 USD and commonly number in millions of dollars).
   * Undergrads, and especially graduate students, postdocs, and faculty live and die by grants.
   * Positions in scientific disciplines are largely funded by grants (in contrast to math, which traditionally funds PhD, postdoc, and faculty positions through teaching and college or department funds).
