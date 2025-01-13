@@ -120,6 +120,9 @@ Yes, it's about as crazy as you think. On the one hand, applications are done th
 
 # Appendix
 
+## Postdoc Statistics
+* We recieved 357 applications two postdoc positions in Fall 2025. This should give you an idea of just how competitive math postdocs are.
+
 ## Key differences between math and non-math fields that are never discussed
 * Always be aware of words that seem unambiguous to you, but are viewed very differently by different fields.
   * **Co-author** vs **Collaborator**: In the sciences, "collaborator" is someone who has a grant with you. This term is distinct from "co-author", who is simply someone who has appeared on a paper with you. In math, co-author and collaborator are equivalent.
