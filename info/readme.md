@@ -71,11 +71,25 @@ Outside of mathjobs.org, there are a few options:
 Last resort methods:
 * Search other job outlets, e.g., https://www.higheredjobs.com/
 * Email professors directly, whether you know them or not. Include a brief explanation of who you are, why you are contacting them, and include a CV. Be specific by mentioning exactly how you could contribute to their research. Otherwise, it's very easy to ignore the email.
-* Search the job pages at universities, colleges, community colleges
+* Search the job pages at universities, colleges, community colleges.
 
 # Information for Interviews
 
-* [The Professor is In](https://theprofessorisin.com) is a great blog that helped prepare me for my final application cycle
+* Ask for advice about interviews from anyone familiar with the process, e.g., tenure track faculty or tenured faculty (especially those who have regularly served on admissions committees). Both can be helpful because recent TT hires have just been through the process, and more senior faculty have likely served on TT hiring committees. Again, any advice I give is just one data point.
+  * Ask early and often from diverse sources to get a sense of what advice might be more useful than others.
+  * [The Professor is In](https://theprofessorisin.com) is a phenomenal blog that contains great information about what to expect and how to act during interviews. This blog helped me more than anything to prepare for interviews in my final application cycle.
+
+* My strategy:
+  * Never run out of questions. To do that, I deeply research everything about the department. Not just the faculty, their research, their courses, but how the department runs, the affiliations between departments (e.g., note how many external faculty have second appointments here, or how many internal faculty have second appointments in other departments), standards for admission, the quality of graduate students, standard expectations for grad students, the location, the local environment... The more I research, the more questions I am prepared to ask out of genuine curiosity. The more answers I get, the more I allow my curiosity to guide questions.
+* Meet baseline expectations. These are like sanity checks for faculty -- are you capable of doing the absolute minimum?
+  * Talk slides should be at least reasonably polished, the talk itself should be at least reasonably well practiced.
+  * Dress appropriately.
+  * Show up on time.
+* Show off soft skills.
+  * Show genuine interest in each and every member of faculty, staff, and administration, no matter how they act or what they look like.
+  * Make small talk, listen carefully.
+  * Be mentally prepared for unexpected events and react calmly.
+  * It is okay if you handle social situations differently. These things are only descriptions of how I operate in interviews.
 
 # Career Changes
 This section has some information about transitioning form pure math to applied math, or from math/applied math to science. These are only guidelines and observations from the perspective of one person, so be sure to seek second opinions.
