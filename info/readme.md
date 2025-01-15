@@ -75,7 +75,7 @@ Last resort methods:
 
 # Information for Interviews
 
-* [The Professor is In](theprofessorisin.com) is a great blog that helped prepare me for my final application cycle
+* [The Professor is In](https://theprofessorisin.com) is a great blog that helped prepare me for my final application cycle
 
 # Career Changes
 This section has some information about transitioning form pure math to applied math, or from math/applied math to science. These are only guidelines and observations from the perspective of one person, so be sure to seek second opinions.
