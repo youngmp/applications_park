@@ -73,23 +73,33 @@ Last resort methods:
 * Email professors directly, whether you know them or not. Include a brief explanation of who you are, why you are contacting them, and include a CV. Be specific by mentioning exactly how you could contribute to their research. Otherwise, it's very easy to ignore the email.
 * Search the job pages at universities, colleges, community colleges.
 
-# Information for Interviews
+# The Interview
+
+These are broad suggestions for both math postdoc and faculty interviews, including first round Zoom and on-campus interviews.
 
 * Ask for advice about interviews from anyone familiar with the process, e.g., tenure track faculty or tenured faculty (especially those who have regularly served on admissions committees). Both can be helpful because recent TT hires have just been through the process, and more senior faculty have likely served on TT hiring committees. Again, any advice I give is just one data point.
-  * Ask early and often from diverse sources to get a sense of what advice might be more useful than others.
+  * Ask early and often from diverse sources (in age, experience, and field) to get a sense of what advice might be more useful than others.
   * [The Professor is In](https://theprofessorisin.com) is a phenomenal blog that contains great information about what to expect and how to act during interviews. This blog helped me more than anything to prepare for interviews in my final application cycle.
 
-* My strategy:
-  * Never run out of questions. To do that, I deeply research everything about the department. Not just the faculty, their research, their courses, but how the department runs, the affiliations between departments (e.g., note how many external faculty have second appointments here, or how many internal faculty have second appointments in other departments), standards for admission, the quality of graduate students, standard expectations for grad students, the location, the local environment... The more I research, the more questions I am prepared to ask out of genuine curiosity. The more answers I get, the more I allow my curiosity to guide questions.
-* Meet baseline expectations. These are like sanity checks for faculty -- are you capable of doing the absolute minimum?
-  * Talk slides should be at least reasonably polished, the talk itself should be at least reasonably well practiced.
-  * Dress appropriately.
-  * Show up on time.
-* Show off soft skills.
+* **Meet baseline expectations**. These are like sanity checks for the people intervewing you -- are you capable of doing the absolute minimum?
+  * Talk slides should be at least reasonably polished, and the talk itself should be at least reasonably well practiced. The level of a standard conference talk is probably okay, but it can only help to practice more.
+  * Dress appropriately. A basic suit/tie combo should be enough, but make sure it fits okay. It doesn't have to be perfectly tailored, but shouldn't be super ill-fitting either. It also doesn't have to be expensive (my suit jacket, slacks, collard long-sleeve shirt, and tie all together easily cost less than $200 total. It may be even less expensive to rent).
+  * Show up on time. If it takes 10 minutes to walk somewhere, add a 5 minute buffer. If it takes 30 minutes to drive somewhere, add a 10 minute buffer. There will be stairs to climb, there will be unexpected stops and detours, there will be unexpected issues with parking. If you are lucky and show up early, then good! Mess around on your phone a bit.
+  * Also see the "Anecdoes on what NOT to do" subsection below.
+* Show off **soft skills**.
   * Show genuine interest in each and every member of faculty, staff, and administration, no matter how they act or what they look like.
   * Make small talk, listen carefully.
   * Be mentally prepared for unexpected events and react calmly.
-  * It is okay if you handle social situations differently. These things are only descriptions of how I operate in interviews.
+  * It is okay if you handle social situations differently. This list is only how I operate in interviews.
+
+* My strategy: **Never run out of questions.**
+  * To this end I deeply research everything about the department. Not just the faculty, their research, their courses, but how the department runs, the affiliations between departments (e.g., interdisciplinary programs, research centers run by multiple departments, the number of external faculty with second appoints in the desired department and vice-versa), standards for admission for undergrads and grad students, the quality of graduate and undergraduate students, standard expectations for grad students (first-year or prelim exams, pass/fail rates, candidacy exams, oral exams), the location (what things are there to do, are there notable cultural differences that stand out), the local environment (weather, rain, what plants/flowers grow well)... The more research is done, the more questions I am prepared to ask out of genuine curiosity. The more answers are given, the more my curiosity can guide questions.
+
+## Anecdoes on what NOT to do
+
+There are easily avoidable mistakes that stand out from the interviewer's perspective. I understand that you may be exhausted at this point and it may seem like there is not much left to do, but being well-prepared at the interview stage is just as critical as any other time.
+
+* During a postdoc interview, the interviewee was perfectly able to summarize all their research and future potential directions in the allotted 3 minute time window. However, when asked about what projects they might want to work on with existing faculty, their reply was unusually short, no more than a minute. They only listed the most superficial facts, like faculty names and their fields, how they recognized my department as well-known in the field of math bio, and how they would be willing to learn new methods. It became painfully obvious that they hadn't thought much about how their work would fit with faculty despite claiming this place would be a good fit.
 
 # Career Changes
 This section has some information about transitioning form pure math to applied math, or from math/applied math to science. These are only guidelines and observations from the perspective of one person, so be sure to seek second opinions.
