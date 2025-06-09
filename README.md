@@ -13,8 +13,8 @@ Timeline + spreadsheets with details about applications and callbacks:
 
 **Disclaimer**: Everything here is as-is, and not all TeX files have been verified to compile. Some PDFs have corresponding tex files, some do not. However, all non-PDF files are human readable.
 
-<img src="https://i.imgur.com/k3njMzg.png" width="100%">
+<img src="https://i.imgur.com/6Bmf8ij.png" width="100%">
 
-<img src="https://i.imgur.com/lzlrlvI.png"  width="100%">
+<img src="https://i.imgur.com/BfBa2vx.png"  width="100%">
 
-<img src="https://i.imgur.com/cTAetcX.png"  width="100%">
+<img src="https://i.imgur.com/hF03Cr3.png"  width="100%">
